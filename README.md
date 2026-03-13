@@ -23,6 +23,8 @@ dbt debug
 ### If you did't use uv please instll via pip
 ```bash
 Python version 3.12
+
+#Windows version
 # 1.create venv using
 python -m venv .venv
 
@@ -31,6 +33,25 @@ python -m venv .venv
 
 # 3.Install packages from requirements.txt
 pip install -r requirements.txt
+
+# 4. change directory
+cd lmwn_ae_exam
+
+# 5. run DBT debug for check
+dbt debug
+
+# 6. run DBT debug for check
+dbt build
+
+#Macos version
+# 1.create venv using
+python3 -m venv .venv
+
+# 2. Activate the virtual environment
+source .venv/bin/activate
+
+# 3.Install packages from requirements.txt
+pip3 install -r requirements.txt
 
 # 4. change directory
 cd lmwn_ae_exam

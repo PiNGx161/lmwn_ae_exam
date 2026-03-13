@@ -1,0 +1,1070 @@
+[0m15:59:05.771821 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001B8DF4B9340>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001B8DE0BCD40>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001B8DB4B5340>]}
+
+
+============================== 15:59:05.855473 | 9b5f9757-7fc6-4ee3-8935-83f37bbfc069 ==============================
+[0m15:59:05.855473 [info ] [MainThread]: Running with dbt=1.11.7
+[0m15:59:05.855473 [debug] [MainThread]: running dbt with arguments {'static_parser': 'True', 'no_print': 'None', 'version_check': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'target_path': 'None', 'printer_width': '80', 'write_json': 'True', 'empty': 'False', 'log_cache_events': 'False', 'introspect': 'True', 'cache_selected_only': 'False', 'log_format': 'default', 'debug': 'False', 'fail_fast': 'False', 'partial_parse': 'True', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'profiles_dir': '.', 'invocation_command': 'dbt build --profiles-dir . --project-dir .', 'indirect_selection': 'eager', 'use_colors': 'True', 'use_experimental_parser': 'False', 'log_path': 'logs'}
+[0m15:59:05.859486 [error] [MainThread]: Encountered an error:
+Runtime Error
+  No dbt_project.yml found at expected path .\dbt_project.yml
+  Verify that each entry within packages.yml (and their transitive dependencies) contains a file named dbt_project.yml
+  
+[0m15:59:05.860472 [debug] [MainThread]: Command `dbt build` failed at 15:59:05.860472 after 0.23 seconds
+[0m15:59:05.860472 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001B8DF6DC590>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001B8DF6DC5F0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001B8DDBBAE10>]}
+[0m15:59:05.860472 [debug] [MainThread]: Flushing usage events
+[0m15:59:07.052106 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m15:59:21.402194 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F1F5BA7200>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F1F5BA7230>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F1F5BA7350>]}
+
+
+============================== 15:59:21.406712 | 157825e7-1dcb-419c-8dae-3784775f1303 ==============================
+[0m15:59:21.406712 [info ] [MainThread]: Running with dbt=1.11.7
+[0m15:59:21.406712 [debug] [MainThread]: running dbt with arguments {'version_check': 'True', 'no_print': 'None', 'static_parser': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'printer_width': '80', 'write_json': 'True', 'introspect': 'True', 'log_cache_events': 'False', 'empty': 'False', 'cache_selected_only': 'False', 'log_format': 'default', 'debug': 'False', 'fail_fast': 'False', 'profiles_dir': '.', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'partial_parse': 'True', 'indirect_selection': 'eager', 'use_colors': 'True', 'invocation_command': 'dbt build --profiles-dir . --project-dir .', 'use_experimental_parser': 'False', 'log_path': 'logs'}
+[0m15:59:21.407711 [error] [MainThread]: Encountered an error:
+Runtime Error
+  No dbt_project.yml found at expected path .\dbt_project.yml
+  Verify that each entry within packages.yml (and their transitive dependencies) contains a file named dbt_project.yml
+  
+[0m15:59:21.407711 [debug] [MainThread]: Command `dbt build` failed at 15:59:21.407711 after 0.13 seconds
+[0m15:59:21.408712 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F1F68A9D00>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F1F6750F20>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F1F5BA7230>]}
+[0m15:59:21.408712 [debug] [MainThread]: Flushing usage events
+[0m15:59:22.638344 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m15:59:32.434437 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E66A61B950>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E66A0FA960>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E669FE1730>]}
+
+
+============================== 15:59:32.439097 | 4c902ee9-b02f-4098-a18f-0d7dd3b6417e ==============================
+[0m15:59:32.439097 [info ] [MainThread]: Running with dbt=1.11.7
+[0m15:59:32.439694 [debug] [MainThread]: running dbt with arguments {'version_check': 'True', 'no_print': 'None', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'target_path': 'None', 'printer_width': '80', 'write_json': 'True', 'empty': 'None', 'log_cache_events': 'False', 'introspect': 'True', 'cache_selected_only': 'False', 'fail_fast': 'False', 'debug': 'False', 'log_format': 'default', 'profiles_dir': '.', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'partial_parse': 'True', 'use_colors': 'True', 'invocation_command': 'dbt init --profiles-dir . --project-dir .', 'indirect_selection': 'eager', 'use_experimental_parser': 'False', 'log_path': 'logs'}
+[0m16:00:01.199059 [debug] [MainThread]: Starter project path: D:\LMWN_Test\LMWN-AE-Exam\ae-exam-main\.venv\Lib\site-packages\dbt\include\starter_project
+[0m16:00:01.228942 [info ] [MainThread]: 
+Your new dbt project "lmwn_ae_exam" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m16:00:01.228942 [info ] [MainThread]: Setting up your profile.
+[0m16:00:05.937533 [info ] [MainThread]: Profile lmwn_ae_exam written to profiles.yml using target's sample configuration. Once updated, you'll be able to start developing with dbt.
+[0m16:00:05.938537 [debug] [MainThread]: Command `dbt init` succeeded at 16:00:05.938537 after 33.62 seconds
+[0m16:00:05.938537 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E66A579DF0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E66B87CA40>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E66B86C2C0>]}
+[0m16:00:05.938537 [debug] [MainThread]: Flushing usage events
+[0m16:00:07.109293 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m16:09:02.331949 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002938F5F9AC0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002938F130B00>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002938F1317F0>]}
+
+
+============================== 16:09:02.335287 | ec762e78-0eed-4135-93ac-c89623c6d484 ==============================
+[0m16:09:02.335287 [info ] [MainThread]: Running with dbt=1.11.7
+[0m16:09:02.336315 [debug] [MainThread]: running dbt with arguments {'version_check': 'True', 'no_print': 'None', 'static_parser': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'printer_width': '80', 'write_json': 'True', 'empty': 'None', 'log_cache_events': 'False', 'introspect': 'True', 'cache_selected_only': 'False', 'log_format': 'default', 'debug': 'False', 'fail_fast': 'False', 'profiles_dir': 'C:\\Users\\RatthasitBuathongcha\\.dbt', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'partial_parse': 'True', 'indirect_selection': 'eager', 'use_colors': 'True', 'invocation_command': 'dbt debug', 'use_experimental_parser': 'False', 'log_path': 'logs'}
+[0m16:09:02.365524 [info ] [MainThread]: dbt version: 1.11.7
+[0m16:09:02.366524 [info ] [MainThread]: python version: 3.12.10
+[0m16:09:02.366524 [info ] [MainThread]: python path: D:\LMWN_Test\LMWN-AE-Exam\ae-exam-main\.venv\Scripts\python.exe
+[0m16:09:02.366524 [info ] [MainThread]: os info: Windows-11-10.0.26200-SP0
+[0m16:09:02.366524 [info ] [MainThread]: Using profiles dir at C:\Users\RatthasitBuathongcha\.dbt
+[0m16:09:02.366524 [info ] [MainThread]: Using profiles.yml file at C:\Users\RatthasitBuathongcha\.dbt\profiles.yml
+[0m16:09:02.367538 [info ] [MainThread]: Using dbt_project.yml file at D:\LMWN_Test\LMWN-AE-Exam\ae-exam-main\dbt_project.yml
+[0m16:09:02.367538 [info ] [MainThread]: Configuration:
+[0m16:09:02.367538 [info ] [MainThread]:   profiles.yml file [[31mERROR not found[0m]
+[0m16:09:02.367538 [info ] [MainThread]:   dbt_project.yml file [[31mERROR not found[0m]
+[0m16:09:02.367538 [info ] [MainThread]: Required dependencies:
+[0m16:09:02.368537 [debug] [MainThread]: Executing "git --help"
+[0m16:09:02.396655 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--no-lazy-fetch]\n           [--no-optional-locks] [--no-advice] [--bare] [--git-dir=<path>]\n           [--work-tree=<path>] [--namespace=<name>] [--config-env=<name>=<envvar>]\n           <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone      Clone a repository into a new directory\n   init       Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add        Add file contents to the index\n   mv         Move or rename a file, a directory, or a symlink\n   restore    Restore working tree files\n   rm         Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect     Use binary search to find the commit that introduced a bug\n   diff       Show changes between commits, commit and working tree, etc\n   grep       Print lines matching a pattern\n   log        Show commit logs\n   show       Show various types of objects\n   status     Show the working tree status\n\ngrow, mark and tweak your common history\n   backfill   Download missing objects in a partial clone\n   branch     List, create, or delete branches\n   commit     Record changes to the repository\n   merge      Join two or more development histories together\n   rebase     Reapply commits on top of another base tip\n   reset      Reset current HEAD to the specified state\n   switch     Switch branches\n   tag        Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch      Download objects and refs from another repository\n   pull       Fetch from and integrate with another repository or a local branch\n   push       Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m16:09:02.397662 [debug] [MainThread]: STDERR: "b''"
+[0m16:09:02.397662 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m16:09:02.397662 [info ] [MainThread]: Connection test skipped since no profile was found
+[0m16:09:02.398679 [info ] [MainThread]: [31m2 checks failed:[0m
+[0m16:09:02.398679 [info ] [MainThread]: dbt looked for a profiles.yml file in C:\Users\RatthasitBuathongcha\.dbt\profiles.yml, but did
+not find one. For more information on configuring your profile, consult the
+documentation:
+
+https://docs.getdbt.com/docs/configure-your-profile
+
+
+[0m16:09:02.398679 [info ] [MainThread]: Project loading failed for the following reason:
+ project path <D:\LMWN_Test\LMWN-AE-Exam\ae-exam-main\dbt_project.yml> not found
+
+[0m16:09:02.399663 [debug] [MainThread]: Command `dbt debug` failed at 16:09:02.399663 after 0.19 seconds
+[0m16:09:02.399663 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002938F6BC080>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002938FC610A0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002938F5671D0>]}
+[0m16:09:02.399663 [debug] [MainThread]: Flushing usage events
+[0m16:09:03.537957 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m16:10:50.906882 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000228F9D28230>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000228F669D490>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000228F9D2B650>]}
+
+
+============================== 16:10:50.909901 | cae72c67-df2c-4864-b790-f13d6c7d4cbe ==============================
+[0m16:10:50.909901 [info ] [MainThread]: Running with dbt=1.11.7
+[0m16:10:50.910899 [debug] [MainThread]: running dbt with arguments {'static_parser': 'True', 'no_print': 'None', 'version_check': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'target_path': 'None', 'printer_width': '80', 'write_json': 'True', 'empty': 'None', 'log_cache_events': 'False', 'introspect': 'True', 'cache_selected_only': 'False', 'log_format': 'default', 'debug': 'False', 'fail_fast': 'False', 'profiles_dir': 'C:\\Users\\RatthasitBuathongcha\\.dbt', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'partial_parse': 'True', 'invocation_command': 'dbt debug', 'indirect_selection': 'eager', 'use_colors': 'True', 'use_experimental_parser': 'False', 'log_path': 'logs'}
+[0m16:10:50.919086 [info ] [MainThread]: dbt version: 1.11.7
+[0m16:10:50.920592 [info ] [MainThread]: python version: 3.12.10
+[0m16:10:50.920592 [info ] [MainThread]: python path: D:\LMWN_Test\LMWN-AE-Exam\ae-exam-main\.venv\Scripts\python.exe
+[0m16:10:50.921601 [info ] [MainThread]: os info: Windows-11-10.0.26200-SP0
+[0m16:10:50.921601 [info ] [MainThread]: Using profiles dir at C:\Users\RatthasitBuathongcha\.dbt
+[0m16:10:50.921601 [info ] [MainThread]: Using profiles.yml file at C:\Users\RatthasitBuathongcha\.dbt\profiles.yml
+[0m16:10:50.922599 [info ] [MainThread]: Using dbt_project.yml file at D:\LMWN_Test\LMWN-AE-Exam\ae-exam-main\dbt_project.yml
+[0m16:10:50.922599 [info ] [MainThread]: Configuration:
+[0m16:10:50.922599 [info ] [MainThread]:   profiles.yml file [[31mERROR not found[0m]
+[0m16:10:50.923601 [info ] [MainThread]:   dbt_project.yml file [[31mERROR not found[0m]
+[0m16:10:50.923601 [info ] [MainThread]: Required dependencies:
+[0m16:10:50.924602 [debug] [MainThread]: Executing "git --help"
+[0m16:10:50.954754 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--no-lazy-fetch]\n           [--no-optional-locks] [--no-advice] [--bare] [--git-dir=<path>]\n           [--work-tree=<path>] [--namespace=<name>] [--config-env=<name>=<envvar>]\n           <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone      Clone a repository into a new directory\n   init       Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add        Add file contents to the index\n   mv         Move or rename a file, a directory, or a symlink\n   restore    Restore working tree files\n   rm         Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect     Use binary search to find the commit that introduced a bug\n   diff       Show changes between commits, commit and working tree, etc\n   grep       Print lines matching a pattern\n   log        Show commit logs\n   show       Show various types of objects\n   status     Show the working tree status\n\ngrow, mark and tweak your common history\n   backfill   Download missing objects in a partial clone\n   branch     List, create, or delete branches\n   commit     Record changes to the repository\n   merge      Join two or more development histories together\n   rebase     Reapply commits on top of another base tip\n   reset      Reset current HEAD to the specified state\n   switch     Switch branches\n   tag        Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch      Download objects and refs from another repository\n   pull       Fetch from and integrate with another repository or a local branch\n   push       Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m16:10:50.955762 [debug] [MainThread]: STDERR: "b''"
+[0m16:10:50.955762 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m16:10:50.955762 [info ] [MainThread]: Connection test skipped since no profile was found
+[0m16:10:50.956762 [info ] [MainThread]: [31m2 checks failed:[0m
+[0m16:10:50.956762 [info ] [MainThread]: dbt looked for a profiles.yml file in C:\Users\RatthasitBuathongcha\.dbt\profiles.yml, but did
+not find one. For more information on configuring your profile, consult the
+documentation:
+
+https://docs.getdbt.com/docs/configure-your-profile
+
+
+[0m16:10:50.957762 [info ] [MainThread]: Project loading failed for the following reason:
+ project path <D:\LMWN_Test\LMWN-AE-Exam\ae-exam-main\dbt_project.yml> not found
+
+[0m16:10:50.957762 [debug] [MainThread]: Command `dbt debug` failed at 16:10:50.957762 after 0.30 seconds
+[0m16:10:50.957762 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000228FA079A00>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000228F9906270>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000228FA3558B0>]}
+[0m16:10:50.958814 [debug] [MainThread]: Flushing usage events
+[0m16:10:52.108074 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m16:11:26.662674 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A9D02EF440>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A9D0450B00>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A9D0450C20>]}
+
+
+============================== 16:11:26.666230 | 4f161b37-7eff-4517-aa16-15bf8d2dde77 ==============================
+[0m16:11:26.666230 [info ] [MainThread]: Running with dbt=1.11.7
+[0m16:11:26.667229 [debug] [MainThread]: running dbt with arguments {'version_check': 'True', 'no_print': 'None', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'target_path': 'None', 'printer_width': '80', 'write_json': 'True', 'empty': 'None', 'log_cache_events': 'False', 'introspect': 'True', 'cache_selected_only': 'False', 'fail_fast': 'False', 'debug': 'False', 'log_format': 'default', 'partial_parse': 'True', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'profiles_dir': 'C:\\Users\\RatthasitBuathongcha\\.dbt', 'indirect_selection': 'eager', 'use_colors': 'True', 'invocation_command': 'dbt debug', 'use_experimental_parser': 'False', 'log_path': 'logs'}
+[0m16:11:26.675760 [info ] [MainThread]: dbt version: 1.11.7
+[0m16:11:26.675760 [info ] [MainThread]: python version: 3.12.10
+[0m16:11:26.675760 [info ] [MainThread]: python path: D:\LMWN_Test\LMWN-AE-Exam\ae-exam-main\.venv\Scripts\python.exe
+[0m16:11:26.676758 [info ] [MainThread]: os info: Windows-11-10.0.26200-SP0
+[0m16:11:26.676758 [info ] [MainThread]: Using profiles dir at C:\Users\RatthasitBuathongcha\.dbt
+[0m16:11:26.676758 [info ] [MainThread]: Using profiles.yml file at C:\Users\RatthasitBuathongcha\.dbt\profiles.yml
+[0m16:11:26.677762 [info ] [MainThread]: Using dbt_project.yml file at D:\LMWN_Test\LMWN-AE-Exam\ae-exam-main\dbt_project.yml
+[0m16:11:26.677762 [info ] [MainThread]: Configuration:
+[0m16:11:26.677762 [info ] [MainThread]:   profiles.yml file [[31mERROR not found[0m]
+[0m16:11:26.677762 [info ] [MainThread]:   dbt_project.yml file [[31mERROR not found[0m]
+[0m16:11:26.678761 [info ] [MainThread]: Required dependencies:
+[0m16:11:26.678761 [debug] [MainThread]: Executing "git --help"
+[0m16:11:26.709448 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--no-lazy-fetch]\n           [--no-optional-locks] [--no-advice] [--bare] [--git-dir=<path>]\n           [--work-tree=<path>] [--namespace=<name>] [--config-env=<name>=<envvar>]\n           <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone      Clone a repository into a new directory\n   init       Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add        Add file contents to the index\n   mv         Move or rename a file, a directory, or a symlink\n   restore    Restore working tree files\n   rm         Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect     Use binary search to find the commit that introduced a bug\n   diff       Show changes between commits, commit and working tree, etc\n   grep       Print lines matching a pattern\n   log        Show commit logs\n   show       Show various types of objects\n   status     Show the working tree status\n\ngrow, mark and tweak your common history\n   backfill   Download missing objects in a partial clone\n   branch     List, create, or delete branches\n   commit     Record changes to the repository\n   merge      Join two or more development histories together\n   rebase     Reapply commits on top of another base tip\n   reset      Reset current HEAD to the specified state\n   switch     Switch branches\n   tag        Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch      Download objects and refs from another repository\n   pull       Fetch from and integrate with another repository or a local branch\n   push       Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m16:11:26.710448 [debug] [MainThread]: STDERR: "b''"
+[0m16:11:26.710448 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m16:11:26.710448 [info ] [MainThread]: Connection test skipped since no profile was found
+[0m16:11:26.710448 [info ] [MainThread]: [31m2 checks failed:[0m
+[0m16:11:26.710448 [info ] [MainThread]: dbt looked for a profiles.yml file in C:\Users\RatthasitBuathongcha\.dbt\profiles.yml, but did
+not find one. For more information on configuring your profile, consult the
+documentation:
+
+https://docs.getdbt.com/docs/configure-your-profile
+
+
+[0m16:11:26.711956 [info ] [MainThread]: Project loading failed for the following reason:
+ project path <D:\LMWN_Test\LMWN-AE-Exam\ae-exam-main\dbt_project.yml> not found
+
+[0m16:11:26.712965 [debug] [MainThread]: Command `dbt debug` failed at 16:11:26.712965 after 0.17 seconds
+[0m16:11:26.712965 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A9D032D7F0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A9D0A7F200>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A9D05F2570>]}
+[0m16:11:26.713966 [debug] [MainThread]: Flushing usage events
+[0m16:11:27.912924 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m16:12:15.961977 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001DB39B0A720>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001DB3BBBFF80>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001DB3C0903E0>]}
+
+
+============================== 16:12:15.966582 | 96b9f934-fc37-40b3-97fc-8ea5284add07 ==============================
+[0m16:12:15.966582 [info ] [MainThread]: Running with dbt=1.11.7
+[0m16:12:15.966582 [debug] [MainThread]: running dbt with arguments {'version_check': 'True', 'no_print': 'None', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'target_path': 'None', 'printer_width': '80', 'write_json': 'True', 'introspect': 'True', 'log_cache_events': 'False', 'empty': 'None', 'cache_selected_only': 'False', 'fail_fast': 'False', 'debug': 'False', 'log_format': 'default', 'partial_parse': 'True', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'profiles_dir': 'C:\\Users\\RatthasitBuathongcha\\.dbt', 'indirect_selection': 'eager', 'use_colors': 'True', 'invocation_command': 'dbt debug', 'use_experimental_parser': 'False', 'log_path': 'logs'}
+[0m16:12:15.975672 [info ] [MainThread]: dbt version: 1.11.7
+[0m16:12:15.975672 [info ] [MainThread]: python version: 3.12.10
+[0m16:12:15.975672 [info ] [MainThread]: python path: D:\LMWN_Test\LMWN-AE-Exam\ae-exam-main\.venv\Scripts\python.exe
+[0m16:12:15.975672 [info ] [MainThread]: os info: Windows-11-10.0.26200-SP0
+[0m16:12:15.976659 [info ] [MainThread]: Using profiles dir at C:\Users\RatthasitBuathongcha\.dbt
+[0m16:12:15.976659 [info ] [MainThread]: Using profiles.yml file at C:\Users\RatthasitBuathongcha\.dbt\profiles.yml
+[0m16:12:15.976659 [info ] [MainThread]: Using dbt_project.yml file at D:\LMWN_Test\LMWN-AE-Exam\ae-exam-main\dbt_project.yml
+[0m16:12:15.977721 [info ] [MainThread]: Configuration:
+[0m16:12:15.977721 [info ] [MainThread]:   profiles.yml file [[31mERROR not found[0m]
+[0m16:12:15.978729 [info ] [MainThread]:   dbt_project.yml file [[31mERROR not found[0m]
+[0m16:12:15.978729 [info ] [MainThread]: Required dependencies:
+[0m16:12:15.978729 [debug] [MainThread]: Executing "git --help"
+[0m16:12:16.006701 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--no-lazy-fetch]\n           [--no-optional-locks] [--no-advice] [--bare] [--git-dir=<path>]\n           [--work-tree=<path>] [--namespace=<name>] [--config-env=<name>=<envvar>]\n           <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone      Clone a repository into a new directory\n   init       Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add        Add file contents to the index\n   mv         Move or rename a file, a directory, or a symlink\n   restore    Restore working tree files\n   rm         Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect     Use binary search to find the commit that introduced a bug\n   diff       Show changes between commits, commit and working tree, etc\n   grep       Print lines matching a pattern\n   log        Show commit logs\n   show       Show various types of objects\n   status     Show the working tree status\n\ngrow, mark and tweak your common history\n   backfill   Download missing objects in a partial clone\n   branch     List, create, or delete branches\n   commit     Record changes to the repository\n   merge      Join two or more development histories together\n   rebase     Reapply commits on top of another base tip\n   reset      Reset current HEAD to the specified state\n   switch     Switch branches\n   tag        Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch      Download objects and refs from another repository\n   pull       Fetch from and integrate with another repository or a local branch\n   push       Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m16:12:16.007729 [debug] [MainThread]: STDERR: "b''"
+[0m16:12:16.007729 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m16:12:16.007729 [info ] [MainThread]: Connection test skipped since no profile was found
+[0m16:12:16.007729 [info ] [MainThread]: [31m2 checks failed:[0m
+[0m16:12:16.008706 [info ] [MainThread]: dbt looked for a profiles.yml file in C:\Users\RatthasitBuathongcha\.dbt\profiles.yml, but did
+not find one. For more information on configuring your profile, consult the
+documentation:
+
+https://docs.getdbt.com/docs/configure-your-profile
+
+
+[0m16:12:16.009711 [info ] [MainThread]: Project loading failed for the following reason:
+ project path <D:\LMWN_Test\LMWN-AE-Exam\ae-exam-main\dbt_project.yml> not found
+
+[0m16:12:16.010709 [debug] [MainThread]: Command `dbt debug` failed at 16:12:16.009711 after 0.18 seconds
+[0m16:12:16.010709 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001DB39B0A720>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001DB3C1BEFC0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001DB3BD7A6C0>]}
+[0m16:12:16.010709 [debug] [MainThread]: Flushing usage events
+[0m16:12:17.156132 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m16:14:18.433039 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000025A2CC7F4A0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000025A2CC7C080>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000025A2CC7D1C0>]}
+
+
+============================== 16:14:18.437069 | 2c4ee2c3-abe8-4da7-a9b8-12d631da41e2 ==============================
+[0m16:14:18.437069 [info ] [MainThread]: Running with dbt=1.11.7
+[0m16:14:18.438069 [debug] [MainThread]: running dbt with arguments {'static_parser': 'True', 'no_print': 'None', 'version_check': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'target_path': 'None', 'printer_width': '80', 'write_json': 'True', 'empty': 'None', 'log_cache_events': 'False', 'introspect': 'True', 'cache_selected_only': 'False', 'fail_fast': 'False', 'debug': 'False', 'log_format': 'default', 'partial_parse': 'True', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'profiles_dir': 'C:\\Users\\RatthasitBuathongcha\\.dbt', 'invocation_command': 'dbt debug', 'use_colors': 'True', 'indirect_selection': 'eager', 'use_experimental_parser': 'False', 'log_path': 'logs'}
+[0m16:14:18.447642 [info ] [MainThread]: dbt version: 1.11.7
+[0m16:14:18.447642 [info ] [MainThread]: python version: 3.12.10
+[0m16:14:18.447642 [info ] [MainThread]: python path: D:\LMWN_Test\LMWN-AE-Exam\ae-exam-main\.venv\Scripts\python.exe
+[0m16:14:18.448658 [info ] [MainThread]: os info: Windows-11-10.0.26200-SP0
+[0m16:14:18.448658 [info ] [MainThread]: Using profiles dir at C:\Users\RatthasitBuathongcha\.dbt
+[0m16:14:18.449640 [info ] [MainThread]: Using profiles.yml file at C:\Users\RatthasitBuathongcha\.dbt\profiles.yml
+[0m16:14:18.449640 [info ] [MainThread]: Using dbt_project.yml file at D:\LMWN_Test\LMWN-AE-Exam\ae-exam-main\dbt_project.yml
+[0m16:14:18.450232 [info ] [MainThread]: Configuration:
+[0m16:14:18.450232 [info ] [MainThread]:   profiles.yml file [[31mERROR not found[0m]
+[0m16:14:18.451239 [info ] [MainThread]:   dbt_project.yml file [[31mERROR not found[0m]
+[0m16:14:18.451239 [info ] [MainThread]: Required dependencies:
+[0m16:14:18.452239 [debug] [MainThread]: Executing "git --help"
+[0m16:14:18.483435 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--no-lazy-fetch]\n           [--no-optional-locks] [--no-advice] [--bare] [--git-dir=<path>]\n           [--work-tree=<path>] [--namespace=<name>] [--config-env=<name>=<envvar>]\n           <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone      Clone a repository into a new directory\n   init       Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add        Add file contents to the index\n   mv         Move or rename a file, a directory, or a symlink\n   restore    Restore working tree files\n   rm         Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect     Use binary search to find the commit that introduced a bug\n   diff       Show changes between commits, commit and working tree, etc\n   grep       Print lines matching a pattern\n   log        Show commit logs\n   show       Show various types of objects\n   status     Show the working tree status\n\ngrow, mark and tweak your common history\n   backfill   Download missing objects in a partial clone\n   branch     List, create, or delete branches\n   commit     Record changes to the repository\n   merge      Join two or more development histories together\n   rebase     Reapply commits on top of another base tip\n   reset      Reset current HEAD to the specified state\n   switch     Switch branches\n   tag        Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch      Download objects and refs from another repository\n   pull       Fetch from and integrate with another repository or a local branch\n   push       Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m16:14:18.483435 [debug] [MainThread]: STDERR: "b''"
+[0m16:14:18.483435 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m16:14:18.484366 [info ] [MainThread]: Connection test skipped since no profile was found
+[0m16:14:18.484366 [info ] [MainThread]: [31m2 checks failed:[0m
+[0m16:14:18.484876 [info ] [MainThread]: dbt looked for a profiles.yml file in C:\Users\RatthasitBuathongcha\.dbt\profiles.yml, but did
+not find one. For more information on configuring your profile, consult the
+documentation:
+
+https://docs.getdbt.com/docs/configure-your-profile
+
+
+[0m16:14:18.484876 [info ] [MainThread]: Project loading failed for the following reason:
+ project path <D:\LMWN_Test\LMWN-AE-Exam\ae-exam-main\dbt_project.yml> not found
+
+[0m16:14:18.485886 [debug] [MainThread]: Command `dbt debug` failed at 16:14:18.485886 after 0.28 seconds
+[0m16:14:18.485886 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000025A2CC193D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000025A2CC7F4A0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000025A2CC7D1C0>]}
+[0m16:14:18.486884 [debug] [MainThread]: Flushing usage events
+[0m16:14:19.639158 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m16:16:58.960091 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002522241B770>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002521FD840B0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002522241AAB0>]}
+
+
+============================== 16:16:58.964155 | c566a75b-77d4-4e64-baaf-c997475bb75c ==============================
+[0m16:16:58.964155 [info ] [MainThread]: Running with dbt=1.11.7
+[0m16:16:58.964420 [debug] [MainThread]: running dbt with arguments {'version_check': 'True', 'no_print': 'None', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'target_path': 'None', 'printer_width': '80', 'write_json': 'True', 'empty': 'None', 'log_cache_events': 'False', 'introspect': 'True', 'cache_selected_only': 'False', 'fail_fast': 'False', 'debug': 'False', 'log_format': 'default', 'profiles_dir': 'C:\\Users\\RatthasitBuathongcha\\.dbt', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'partial_parse': 'True', 'use_colors': 'True', 'indirect_selection': 'eager', 'invocation_command': 'dbt debug', 'use_experimental_parser': 'False', 'log_path': 'logs'}
+[0m16:16:58.973572 [info ] [MainThread]: dbt version: 1.11.7
+[0m16:16:58.973572 [info ] [MainThread]: python version: 3.12.10
+[0m16:16:58.975081 [info ] [MainThread]: python path: D:\LMWN_Test\LMWN-AE-Exam\ae-exam-main\.venv\Scripts\python.exe
+[0m16:16:58.976090 [info ] [MainThread]: os info: Windows-11-10.0.26200-SP0
+[0m16:16:58.976090 [info ] [MainThread]: Using profiles dir at C:\Users\RatthasitBuathongcha\.dbt
+[0m16:16:58.977090 [info ] [MainThread]: Using profiles.yml file at C:\Users\RatthasitBuathongcha\.dbt\profiles.yml
+[0m16:16:58.977090 [info ] [MainThread]: Using dbt_project.yml file at D:\LMWN_Test\LMWN-AE-Exam\ae-exam-main\dbt_project.yml
+[0m16:16:58.977090 [info ] [MainThread]: Configuration:
+[0m16:16:58.978461 [info ] [MainThread]:   profiles.yml file [[31mERROR not found[0m]
+[0m16:16:58.978461 [info ] [MainThread]:   dbt_project.yml file [[31mERROR not found[0m]
+[0m16:16:58.978461 [info ] [MainThread]: Required dependencies:
+[0m16:16:58.978461 [debug] [MainThread]: Executing "git --help"
+[0m16:16:59.007250 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--no-lazy-fetch]\n           [--no-optional-locks] [--no-advice] [--bare] [--git-dir=<path>]\n           [--work-tree=<path>] [--namespace=<name>] [--config-env=<name>=<envvar>]\n           <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone      Clone a repository into a new directory\n   init       Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add        Add file contents to the index\n   mv         Move or rename a file, a directory, or a symlink\n   restore    Restore working tree files\n   rm         Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect     Use binary search to find the commit that introduced a bug\n   diff       Show changes between commits, commit and working tree, etc\n   grep       Print lines matching a pattern\n   log        Show commit logs\n   show       Show various types of objects\n   status     Show the working tree status\n\ngrow, mark and tweak your common history\n   backfill   Download missing objects in a partial clone\n   branch     List, create, or delete branches\n   commit     Record changes to the repository\n   merge      Join two or more development histories together\n   rebase     Reapply commits on top of another base tip\n   reset      Reset current HEAD to the specified state\n   switch     Switch branches\n   tag        Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch      Download objects and refs from another repository\n   pull       Fetch from and integrate with another repository or a local branch\n   push       Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m16:16:59.007250 [debug] [MainThread]: STDERR: "b''"
+[0m16:16:59.008252 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m16:16:59.008252 [info ] [MainThread]: Connection test skipped since no profile was found
+[0m16:16:59.008252 [info ] [MainThread]: [31m2 checks failed:[0m
+[0m16:16:59.009251 [info ] [MainThread]: dbt looked for a profiles.yml file in C:\Users\RatthasitBuathongcha\.dbt\profiles.yml, but did
+not find one. For more information on configuring your profile, consult the
+documentation:
+
+https://docs.getdbt.com/docs/configure-your-profile
+
+
+[0m16:16:59.009251 [info ] [MainThread]: Project loading failed for the following reason:
+ project path <D:\LMWN_Test\LMWN-AE-Exam\ae-exam-main\dbt_project.yml> not found
+
+[0m16:16:59.010248 [debug] [MainThread]: Command `dbt debug` failed at 16:16:59.010248 after 0.21 seconds
+[0m16:16:59.010248 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002522285FAA0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000025223AE9640>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000252220CD190>]}
+[0m16:16:59.010248 [debug] [MainThread]: Flushing usage events
+[0m16:17:00.148319 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m16:17:16.676645 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000294CA9912E0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000294CB5606B0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000294CD06B470>]}
+
+
+============================== 16:17:16.681040 | 7ddbfdcf-348d-4998-9bd9-3fd03f50193f ==============================
+[0m16:17:16.681040 [info ] [MainThread]: Running with dbt=1.11.7
+[0m16:17:16.682023 [debug] [MainThread]: running dbt with arguments {'static_parser': 'True', 'no_print': 'None', 'version_check': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'printer_width': '80', 'write_json': 'True', 'empty': 'None', 'log_cache_events': 'False', 'introspect': 'True', 'cache_selected_only': 'False', 'log_format': 'default', 'debug': 'False', 'fail_fast': 'False', 'profiles_dir': 'D:\\LMWN_Test\\LMWN-AE-Exam\\ae-exam-main\\lmwn_ae_exam', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'partial_parse': 'True', 'indirect_selection': 'eager', 'use_colors': 'True', 'invocation_command': 'dbt ', 'use_experimental_parser': 'False', 'log_path': 'd:\\LMWN_Test\\LMWN-AE-Exam\\ae-exam-main\\logs'}
+[0m16:17:16.762204 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '7ddbfdcf-348d-4998-9bd9-3fd03f50193f', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000294CDC11C10>]}
+[0m16:17:16.776027 [info ] [MainThread]: Warning: No packages were found in packages.yml
+[0m16:17:16.777615 [info ] [MainThread]: Warning: No packages were found in packages.yml
+[0m16:17:16.778624 [debug] [MainThread]: Command `cli deps` succeeded at 16:17:16.777615 after 0.24 seconds
+[0m16:17:16.778624 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000294CA9912E0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000294CF0FE810>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000294CF09F9B0>]}
+[0m16:17:16.778624 [debug] [MainThread]: Flushing usage events
+[0m16:17:17.343436 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F6361A16A0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F635959C40>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F63566FC50>]}
+
+
+============================== 16:17:17.346956 | 1b544e24-8dd3-496b-9427-1981cca45d06 ==============================
+[0m16:17:17.346956 [info ] [MainThread]: Running with dbt=1.11.7
+[0m16:17:17.347955 [debug] [MainThread]: running dbt with arguments {'static_parser': 'True', 'no_print': 'None', 'version_check': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'printer_width': '80', 'write_json': 'True', 'empty': 'None', 'log_cache_events': 'False', 'introspect': 'True', 'cache_selected_only': 'False', 'fail_fast': 'False', 'debug': 'False', 'log_format': 'default', 'profiles_dir': 'D:\\LMWN_Test\\LMWN-AE-Exam\\ae-exam-main', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'partial_parse': 'True', 'indirect_selection': 'eager', 'invocation_command': 'dbt debug', 'use_colors': 'True', 'use_experimental_parser': 'False', 'log_path': 'D:\\LMWN_Test\\LMWN-AE-Exam\\ae-exam-main\\logs'}
+[0m16:17:17.357065 [info ] [MainThread]: dbt version: 1.11.7
+[0m16:17:17.357065 [info ] [MainThread]: python version: 3.12.10
+[0m16:17:17.358048 [info ] [MainThread]: python path: D:\LMWN_Test\LMWN-AE-Exam\ae-exam-main\.venv\Scripts\python.exe
+[0m16:17:17.358048 [info ] [MainThread]: os info: Windows-11-10.0.26200-SP0
+[0m16:17:17.434969 [info ] [MainThread]: Using profiles dir at D:\LMWN_Test\LMWN-AE-Exam\ae-exam-main
+[0m16:17:17.435499 [info ] [MainThread]: Using profiles.yml file at D:\LMWN_Test\LMWN-AE-Exam\ae-exam-main\profiles.yml
+[0m16:17:17.435499 [info ] [MainThread]: Using dbt_project.yml file at D:\LMWN_Test\LMWN-AE-Exam\ae-exam-main\dbt_project.yml
+[0m16:17:17.438010 [info ] [MainThread]: adapter type: duckdb
+[0m16:17:17.438010 [info ] [MainThread]: adapter version: 1.10.1
+[0m16:17:17.511846 [info ] [MainThread]: Configuration:
+[0m16:17:17.511846 [info ] [MainThread]:   profiles.yml file [[32mOK found and valid[0m]
+[0m16:17:17.512853 [info ] [MainThread]:   dbt_project.yml file [[32mOK found and valid[0m]
+[0m16:17:17.512853 [info ] [MainThread]: Required dependencies:
+[0m16:17:17.512853 [debug] [MainThread]: Executing "git --help"
+[0m16:17:17.542676 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--no-lazy-fetch]\n           [--no-optional-locks] [--no-advice] [--bare] [--git-dir=<path>]\n           [--work-tree=<path>] [--namespace=<name>] [--config-env=<name>=<envvar>]\n           <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone      Clone a repository into a new directory\n   init       Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add        Add file contents to the index\n   mv         Move or rename a file, a directory, or a symlink\n   restore    Restore working tree files\n   rm         Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect     Use binary search to find the commit that introduced a bug\n   diff       Show changes between commits, commit and working tree, etc\n   grep       Print lines matching a pattern\n   log        Show commit logs\n   show       Show various types of objects\n   status     Show the working tree status\n\ngrow, mark and tweak your common history\n   backfill   Download missing objects in a partial clone\n   branch     List, create, or delete branches\n   commit     Record changes to the repository\n   merge      Join two or more development histories together\n   rebase     Reapply commits on top of another base tip\n   reset      Reset current HEAD to the specified state\n   switch     Switch branches\n   tag        Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch      Download objects and refs from another repository\n   pull       Fetch from and integrate with another repository or a local branch\n   push       Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m16:17:17.542676 [debug] [MainThread]: STDERR: "b''"
+[0m16:17:17.543678 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m16:17:17.543678 [info ] [MainThread]: Connection:
+[0m16:17:17.543678 [info ] [MainThread]:   database: ae_exam_db
+[0m16:17:17.543678 [info ] [MainThread]:   schema: main
+[0m16:17:17.545188 [info ] [MainThread]:   path: D:\LMWN_Test\LMWN-AE-Exam\ae-exam-main\Data Sources\ae_exam_db.duckdb
+[0m16:17:17.545188 [info ] [MainThread]:   config_options: None
+[0m16:17:17.546206 [info ] [MainThread]:   extensions: None
+[0m16:17:17.546206 [info ] [MainThread]:   settings: {}
+[0m16:17:17.547198 [info ] [MainThread]:   external_root: .
+[0m16:17:17.547198 [info ] [MainThread]:   use_credential_provider: None
+[0m16:17:17.548197 [info ] [MainThread]:   attach: None
+[0m16:17:17.548197 [info ] [MainThread]:   filesystems: None
+[0m16:17:17.548197 [info ] [MainThread]:   remote: None
+[0m16:17:17.548197 [info ] [MainThread]:   plugins: None
+[0m16:17:17.549709 [info ] [MainThread]:   disable_transactions: False
+[0m16:17:17.549709 [info ] [MainThread]: Registered adapter: duckdb=1.10.1
+[0m16:17:17.655093 [debug] [MainThread]: Acquiring new duckdb connection 'debug'
+[0m16:17:17.681269 [debug] [MainThread]: Using duckdb connection "debug"
+[0m16:17:17.681269 [debug] [MainThread]: On debug: select 1 as id
+[0m16:17:17.681269 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m16:17:17.707193 [debug] [MainThread]: SQL status: OK in 0.025 seconds
+[0m16:17:17.707193 [debug] [MainThread]: On debug: Close
+[0m16:17:17.708191 [info ] [MainThread]:   Connection test: [[32mOK connection ok[0m]
+
+[0m16:17:17.708191 [info ] [MainThread]: [32mAll checks passed![0m
+[0m16:17:17.709190 [debug] [MainThread]: Command `dbt debug` succeeded at 16:17:17.709190 after 0.47 seconds
+[0m16:17:17.710194 [debug] [MainThread]: Connection 'debug' was properly closed.
+[0m16:17:17.710194 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F632701430>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F63576A870>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F635BE2570>]}
+[0m16:17:17.710194 [debug] [MainThread]: Flushing usage events
+[0m16:17:17.924089 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m16:17:18.825871 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m16:17:29.464019 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001C6254249E0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001C628962B40>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001C6289630B0>]}
+
+
+============================== 16:17:29.467542 | 171bfbe1-a1f5-48f5-bddd-d8dcc904d410 ==============================
+[0m16:17:29.467542 [info ] [MainThread]: Running with dbt=1.11.7
+[0m16:17:29.468197 [debug] [MainThread]: running dbt with arguments {'static_parser': 'True', 'no_print': 'None', 'version_check': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'target_path': 'None', 'printer_width': '80', 'write_json': 'True', 'empty': 'None', 'log_cache_events': 'False', 'introspect': 'True', 'cache_selected_only': 'False', 'log_format': 'default', 'debug': 'False', 'fail_fast': 'False', 'partial_parse': 'True', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'profiles_dir': 'D:\\LMWN_Test\\LMWN-AE-Exam\\ae-exam-main', 'indirect_selection': 'eager', 'use_colors': 'True', 'invocation_command': 'dbt debug', 'use_experimental_parser': 'False', 'log_path': 'D:\\LMWN_Test\\LMWN-AE-Exam\\ae-exam-main\\logs'}
+[0m16:17:29.480050 [info ] [MainThread]: dbt version: 1.11.7
+[0m16:17:29.481063 [info ] [MainThread]: python version: 3.12.10
+[0m16:17:29.481063 [info ] [MainThread]: python path: D:\LMWN_Test\LMWN-AE-Exam\ae-exam-main\.venv\Scripts\python.exe
+[0m16:17:29.481063 [info ] [MainThread]: os info: Windows-11-10.0.26200-SP0
+[0m16:17:29.561872 [info ] [MainThread]: Using profiles dir at D:\LMWN_Test\LMWN-AE-Exam\ae-exam-main
+[0m16:17:29.562948 [info ] [MainThread]: Using profiles.yml file at D:\LMWN_Test\LMWN-AE-Exam\ae-exam-main\profiles.yml
+[0m16:17:29.562948 [info ] [MainThread]: Using dbt_project.yml file at D:\LMWN_Test\LMWN-AE-Exam\ae-exam-main\dbt_project.yml
+[0m16:17:29.563969 [info ] [MainThread]: adapter type: duckdb
+[0m16:17:29.564962 [info ] [MainThread]: adapter version: 1.10.1
+[0m16:17:29.637756 [info ] [MainThread]: Configuration:
+[0m16:17:29.638386 [info ] [MainThread]:   profiles.yml file [[32mOK found and valid[0m]
+[0m16:17:29.638386 [info ] [MainThread]:   dbt_project.yml file [[32mOK found and valid[0m]
+[0m16:17:29.639173 [info ] [MainThread]: Required dependencies:
+[0m16:17:29.639404 [debug] [MainThread]: Executing "git --help"
+[0m16:17:29.668256 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--no-lazy-fetch]\n           [--no-optional-locks] [--no-advice] [--bare] [--git-dir=<path>]\n           [--work-tree=<path>] [--namespace=<name>] [--config-env=<name>=<envvar>]\n           <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone      Clone a repository into a new directory\n   init       Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add        Add file contents to the index\n   mv         Move or rename a file, a directory, or a symlink\n   restore    Restore working tree files\n   rm         Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect     Use binary search to find the commit that introduced a bug\n   diff       Show changes between commits, commit and working tree, etc\n   grep       Print lines matching a pattern\n   log        Show commit logs\n   show       Show various types of objects\n   status     Show the working tree status\n\ngrow, mark and tweak your common history\n   backfill   Download missing objects in a partial clone\n   branch     List, create, or delete branches\n   commit     Record changes to the repository\n   merge      Join two or more development histories together\n   rebase     Reapply commits on top of another base tip\n   reset      Reset current HEAD to the specified state\n   switch     Switch branches\n   tag        Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch      Download objects and refs from another repository\n   pull       Fetch from and integrate with another repository or a local branch\n   push       Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m16:17:29.669258 [debug] [MainThread]: STDERR: "b''"
+[0m16:17:29.669258 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m16:17:29.669258 [info ] [MainThread]: Connection:
+[0m16:17:29.669258 [info ] [MainThread]:   database: ae_exam_db
+[0m16:17:29.669258 [info ] [MainThread]:   schema: main
+[0m16:17:29.670768 [info ] [MainThread]:   path: D:\LMWN_Test\LMWN-AE-Exam\ae-exam-main\Data Sources\ae_exam_db.duckdb
+[0m16:17:29.670768 [info ] [MainThread]:   config_options: None
+[0m16:17:29.671780 [info ] [MainThread]:   extensions: None
+[0m16:17:29.671780 [info ] [MainThread]:   settings: {}
+[0m16:17:29.672774 [info ] [MainThread]:   external_root: .
+[0m16:17:29.672774 [info ] [MainThread]:   use_credential_provider: None
+[0m16:17:29.672774 [info ] [MainThread]:   attach: None
+[0m16:17:29.673774 [info ] [MainThread]:   filesystems: None
+[0m16:17:29.673774 [info ] [MainThread]:   remote: None
+[0m16:17:29.673774 [info ] [MainThread]:   plugins: None
+[0m16:17:29.673774 [info ] [MainThread]:   disable_transactions: False
+[0m16:17:29.674772 [info ] [MainThread]: Registered adapter: duckdb=1.10.1
+[0m16:17:29.781777 [debug] [MainThread]: Acquiring new duckdb connection 'debug'
+[0m16:17:29.806592 [debug] [MainThread]: Using duckdb connection "debug"
+[0m16:17:29.807606 [debug] [MainThread]: On debug: select 1 as id
+[0m16:17:29.807606 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m16:17:29.819213 [debug] [MainThread]: SQL status: OK in 0.012 seconds
+[0m16:17:29.819213 [debug] [MainThread]: On debug: Close
+[0m16:17:29.819213 [info ] [MainThread]:   Connection test: [[32mOK connection ok[0m]
+
+[0m16:17:29.820741 [info ] [MainThread]: [32mAll checks passed![0m
+[0m16:17:29.820741 [debug] [MainThread]: Command `dbt debug` succeeded at 16:17:29.820741 after 0.49 seconds
+[0m16:17:29.820741 [debug] [MainThread]: Connection 'debug' was properly closed.
+[0m16:17:29.820741 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001C600016630>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001C600016570>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001C625461160>]}
+[0m16:17:29.820741 [debug] [MainThread]: Flushing usage events
+[0m16:17:30.980762 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m16:18:08.435659 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000251A409CCE0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000251A6B06840>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000251A37A1640>]}
+
+
+============================== 16:18:08.439791 | c97afb23-4b92-42c8-aab4-f148e30ef33b ==============================
+[0m16:18:08.439791 [info ] [MainThread]: Running with dbt=1.11.7
+[0m16:18:08.439791 [debug] [MainThread]: running dbt with arguments {'version_check': 'True', 'no_print': 'None', 'static_parser': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'printer_width': '80', 'write_json': 'True', 'introspect': 'True', 'log_cache_events': 'False', 'empty': 'None', 'cache_selected_only': 'False', 'fail_fast': 'False', 'debug': 'False', 'log_format': 'default', 'profiles_dir': 'D:\\LMWN_Test\\LMWN-AE-Exam\\ae-exam-main', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'partial_parse': 'True', 'indirect_selection': 'eager', 'use_colors': 'True', 'invocation_command': 'dbt deps', 'use_experimental_parser': 'False', 'log_path': 'D:\\LMWN_Test\\LMWN-AE-Exam\\ae-exam-main\\logs'}
+[0m16:18:08.520805 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': 'c97afb23-4b92-42c8-aab4-f148e30ef33b', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000251A5FD3020>]}
+[0m16:18:08.533037 [info ] [MainThread]: Warning: No packages were found in packages.yml
+[0m16:18:08.534052 [info ] [MainThread]: Warning: No packages were found in packages.yml
+[0m16:18:08.535036 [debug] [MainThread]: Command `dbt deps` succeeded at 16:18:08.535036 after 0.23 seconds
+[0m16:18:08.535036 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000251A8526060>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000251A47A71A0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000251A47A4E00>]}
+[0m16:18:08.535036 [debug] [MainThread]: Flushing usage events
+[0m16:18:09.711065 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m16:18:39.042932 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000019D7C2176E0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000019D7C1E96D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000019D7C845040>]}
+
+
+============================== 16:18:39.046492 | 1d9098be-6f77-4ea6-9bce-b95455a52675 ==============================
+[0m16:18:39.046492 [info ] [MainThread]: Running with dbt=1.11.7
+[0m16:18:39.047486 [debug] [MainThread]: running dbt with arguments {'version_check': 'True', 'no_print': 'None', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'target_path': 'None', 'printer_width': '80', 'write_json': 'True', 'empty': 'None', 'log_cache_events': 'False', 'introspect': 'True', 'cache_selected_only': 'False', 'fail_fast': 'False', 'debug': 'False', 'log_format': 'default', 'partial_parse': 'True', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'profiles_dir': 'D:\\LMWN_Test\\LMWN-AE-Exam\\ae-exam-main', 'use_colors': 'True', 'invocation_command': 'dbt clean', 'indirect_selection': 'eager', 'use_experimental_parser': 'False', 'log_path': 'D:\\LMWN_Test\\LMWN-AE-Exam\\ae-exam-main\\logs'}
+[0m16:18:39.126914 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '1d9098be-6f77-4ea6-9bce-b95455a52675', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000019D7CE2DDC0>]}
+[0m16:18:39.161882 [debug] [MainThread]: Command `dbt clean` succeeded at 16:18:39.161882 after 0.25 seconds
+[0m16:18:39.162985 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000019D7CEEE060>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000019D7C215460>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000019D7C2176E0>]}
+[0m16:18:39.162985 [debug] [MainThread]: Flushing usage events
+[0m16:18:40.296269 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m16:20:30.949156 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022D0BC84F50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022D0E40C230>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022D0E40C920>]}
+
+
+============================== 16:20:30.953168 | 90c5ab0b-e8f8-4178-9b2b-a92f88c4e1fb ==============================
+[0m16:20:30.953168 [info ] [MainThread]: Running with dbt=1.11.7
+[0m16:20:30.953168 [debug] [MainThread]: running dbt with arguments {'version_check': 'True', 'no_print': 'None', 'static_parser': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'printer_width': '80', 'write_json': 'True', 'introspect': 'True', 'log_cache_events': 'False', 'empty': 'None', 'cache_selected_only': 'False', 'log_format': 'default', 'debug': 'False', 'fail_fast': 'False', 'profiles_dir': 'd:\\LMWN_Test\\LMWN-AE-Exam\\ae-exam-main', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'partial_parse': 'True', 'indirect_selection': 'eager', 'use_colors': 'True', 'invocation_command': 'dbt ', 'use_experimental_parser': 'False', 'log_path': 'd:\\LMWN_Test\\LMWN-AE-Exam\\ae-exam-main\\logs'}
+[0m16:20:31.029964 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '90c5ab0b-e8f8-4178-9b2b-a92f88c4e1fb', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022D0EECDDC0>]}
+[0m16:20:31.044847 [info ] [MainThread]: Warning: No packages were found in packages.yml
+[0m16:20:31.045851 [info ] [MainThread]: Warning: No packages were found in packages.yml
+[0m16:20:31.046855 [debug] [MainThread]: Command `cli deps` succeeded at 16:20:31.046855 after 0.22 seconds
+[0m16:20:31.046855 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022D0EF60C50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022D101DE810>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022D0EB403B0>]}
+[0m16:20:31.046855 [debug] [MainThread]: Flushing usage events
+[0m16:20:32.177782 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m16:20:33.518712 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000024D78FF1520>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000024D787EEB40>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000024D78FF3A10>]}
+
+
+============================== 16:20:33.521830 | f2a6c4ff-0f40-46de-8650-f7495519d793 ==============================
+[0m16:20:33.521830 [info ] [MainThread]: Running with dbt=1.11.7
+[0m16:20:33.522817 [debug] [MainThread]: running dbt with arguments {'static_parser': 'True', 'no_print': 'None', 'version_check': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'printer_width': '80', 'write_json': 'True', 'empty': 'None', 'log_cache_events': 'False', 'introspect': 'True', 'cache_selected_only': 'False', 'log_format': 'default', 'debug': 'False', 'fail_fast': 'False', 'partial_parse': 'True', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'profiles_dir': 'C:\\Users\\RatthasitBuathongcha\\.dbt', 'use_colors': 'True', 'invocation_command': 'dbt debug', 'indirect_selection': 'eager', 'use_experimental_parser': 'False', 'log_path': 'D:\\LMWN_Test\\LMWN-AE-Exam\\ae-exam-main\\logs'}
+[0m16:20:33.530869 [info ] [MainThread]: dbt version: 1.11.7
+[0m16:20:33.531867 [info ] [MainThread]: python version: 3.12.10
+[0m16:20:33.532866 [info ] [MainThread]: python path: D:\LMWN_Test\LMWN-AE-Exam\ae-exam-main\.venv\Scripts\python.exe
+[0m16:20:33.532866 [info ] [MainThread]: os info: Windows-11-10.0.26200-SP0
+[0m16:20:33.532866 [info ] [MainThread]: Using profiles dir at C:\Users\RatthasitBuathongcha\.dbt
+[0m16:20:33.533868 [info ] [MainThread]: Using profiles.yml file at C:\Users\RatthasitBuathongcha\.dbt\profiles.yml
+[0m16:20:33.534869 [info ] [MainThread]: Using dbt_project.yml file at D:\LMWN_Test\LMWN-AE-Exam\ae-exam-main\dbt_project.yml
+[0m16:20:33.606373 [info ] [MainThread]: Configuration:
+[0m16:20:33.607383 [info ] [MainThread]:   profiles.yml file [[31mERROR not found[0m]
+[0m16:20:33.607383 [info ] [MainThread]:   dbt_project.yml file [[32mOK found and valid[0m]
+[0m16:20:33.607383 [info ] [MainThread]: Required dependencies:
+[0m16:20:33.608382 [debug] [MainThread]: Executing "git --help"
+[0m16:20:33.635231 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--no-lazy-fetch]\n           [--no-optional-locks] [--no-advice] [--bare] [--git-dir=<path>]\n           [--work-tree=<path>] [--namespace=<name>] [--config-env=<name>=<envvar>]\n           <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone      Clone a repository into a new directory\n   init       Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add        Add file contents to the index\n   mv         Move or rename a file, a directory, or a symlink\n   restore    Restore working tree files\n   rm         Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect     Use binary search to find the commit that introduced a bug\n   diff       Show changes between commits, commit and working tree, etc\n   grep       Print lines matching a pattern\n   log        Show commit logs\n   show       Show various types of objects\n   status     Show the working tree status\n\ngrow, mark and tweak your common history\n   backfill   Download missing objects in a partial clone\n   branch     List, create, or delete branches\n   commit     Record changes to the repository\n   merge      Join two or more development histories together\n   rebase     Reapply commits on top of another base tip\n   reset      Reset current HEAD to the specified state\n   switch     Switch branches\n   tag        Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch      Download objects and refs from another repository\n   pull       Fetch from and integrate with another repository or a local branch\n   push       Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m16:20:33.636270 [debug] [MainThread]: STDERR: "b''"
+[0m16:20:33.636270 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m16:20:33.636270 [info ] [MainThread]: Connection test skipped since no profile was found
+[0m16:20:33.637775 [info ] [MainThread]: [31m1 check failed:[0m
+[0m16:20:33.637775 [info ] [MainThread]: dbt looked for a profiles.yml file in C:\Users\RatthasitBuathongcha\.dbt\profiles.yml, but did
+not find one. For more information on configuring your profile, consult the
+documentation:
+
+https://docs.getdbt.com/docs/configure-your-profile
+
+
+[0m16:20:33.637775 [debug] [MainThread]: Command `dbt debug` failed at 16:20:33.637775 after 0.25 seconds
+[0m16:20:33.638782 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000024D796F98E0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000024D79CE79B0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000024D79CE6EA0>]}
+[0m16:20:33.638782 [debug] [MainThread]: Flushing usage events
+[0m16:20:34.743710 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m16:21:01.664078 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001730C191F10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001730C8C8350>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001730C8C83E0>]}
+
+
+============================== 16:21:01.668601 | b8b94b5a-86ed-48f8-a658-b223b48f23e2 ==============================
+[0m16:21:01.668601 [info ] [MainThread]: Running with dbt=1.11.7
+[0m16:21:01.668601 [debug] [MainThread]: running dbt with arguments {'static_parser': 'True', 'no_print': 'None', 'version_check': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'target_path': 'None', 'printer_width': '80', 'write_json': 'True', 'introspect': 'True', 'log_cache_events': 'False', 'empty': 'None', 'cache_selected_only': 'False', 'fail_fast': 'False', 'debug': 'False', 'log_format': 'default', 'profiles_dir': 'C:\\Users\\RatthasitBuathongcha\\.dbt', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'partial_parse': 'True', 'invocation_command': 'dbt debug', 'indirect_selection': 'eager', 'use_colors': 'True', 'use_experimental_parser': 'False', 'log_path': 'D:\\LMWN_Test\\LMWN-AE-Exam\\ae-exam-main\\logs'}
+[0m16:21:01.677634 [info ] [MainThread]: dbt version: 1.11.7
+[0m16:21:01.677634 [info ] [MainThread]: python version: 3.12.10
+[0m16:21:01.677634 [info ] [MainThread]: python path: D:\LMWN_Test\LMWN-AE-Exam\ae-exam-main\.venv\Scripts\python.exe
+[0m16:21:01.677634 [info ] [MainThread]: os info: Windows-11-10.0.26200-SP0
+[0m16:21:01.678631 [info ] [MainThread]: Using profiles dir at C:\Users\RatthasitBuathongcha\.dbt
+[0m16:21:01.678631 [info ] [MainThread]: Using profiles.yml file at C:\Users\RatthasitBuathongcha\.dbt\profiles.yml
+[0m16:21:01.678631 [info ] [MainThread]: Using dbt_project.yml file at D:\LMWN_Test\LMWN-AE-Exam\ae-exam-main\dbt_project.yml
+[0m16:21:01.752678 [info ] [MainThread]: Configuration:
+[0m16:21:01.753662 [info ] [MainThread]:   profiles.yml file [[31mERROR not found[0m]
+[0m16:21:01.753662 [info ] [MainThread]:   dbt_project.yml file [[32mOK found and valid[0m]
+[0m16:21:01.753662 [info ] [MainThread]: Required dependencies:
+[0m16:21:01.753662 [debug] [MainThread]: Executing "git --help"
+[0m16:21:01.783856 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--no-lazy-fetch]\n           [--no-optional-locks] [--no-advice] [--bare] [--git-dir=<path>]\n           [--work-tree=<path>] [--namespace=<name>] [--config-env=<name>=<envvar>]\n           <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone      Clone a repository into a new directory\n   init       Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add        Add file contents to the index\n   mv         Move or rename a file, a directory, or a symlink\n   restore    Restore working tree files\n   rm         Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect     Use binary search to find the commit that introduced a bug\n   diff       Show changes between commits, commit and working tree, etc\n   grep       Print lines matching a pattern\n   log        Show commit logs\n   show       Show various types of objects\n   status     Show the working tree status\n\ngrow, mark and tweak your common history\n   backfill   Download missing objects in a partial clone\n   branch     List, create, or delete branches\n   commit     Record changes to the repository\n   merge      Join two or more development histories together\n   rebase     Reapply commits on top of another base tip\n   reset      Reset current HEAD to the specified state\n   switch     Switch branches\n   tag        Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch      Download objects and refs from another repository\n   pull       Fetch from and integrate with another repository or a local branch\n   push       Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m16:21:01.783856 [debug] [MainThread]: STDERR: "b''"
+[0m16:21:01.784878 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m16:21:01.784878 [info ] [MainThread]: Connection test skipped since no profile was found
+[0m16:21:01.784878 [info ] [MainThread]: [31m1 check failed:[0m
+[0m16:21:01.784878 [info ] [MainThread]: dbt looked for a profiles.yml file in C:\Users\RatthasitBuathongcha\.dbt\profiles.yml, but did
+not find one. For more information on configuring your profile, consult the
+documentation:
+
+https://docs.getdbt.com/docs/configure-your-profile
+
+
+[0m16:21:01.786034 [debug] [MainThread]: Command `dbt debug` failed at 16:21:01.786034 after 0.24 seconds
+[0m16:21:01.786034 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001730C5EEB10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001730BBDE270>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001730E02A660>]}
+[0m16:21:01.786034 [debug] [MainThread]: Flushing usage events
+[0m16:21:02.907968 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m16:21:41.610128 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001DD4A477AD0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001DD4D635400>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001DD4DB29A60>]}
+
+
+============================== 16:21:41.613673 | 3b2cece4-f942-4566-9527-cf8ab3621613 ==============================
+[0m16:21:41.613673 [info ] [MainThread]: Running with dbt=1.11.7
+[0m16:21:41.615204 [debug] [MainThread]: running dbt with arguments {'static_parser': 'True', 'no_print': 'None', 'version_check': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'printer_width': '80', 'write_json': 'True', 'introspect': 'True', 'log_cache_events': 'False', 'empty': 'None', 'cache_selected_only': 'False', 'log_format': 'default', 'debug': 'False', 'fail_fast': 'False', 'partial_parse': 'True', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'profiles_dir': 'D:\\LMWN_Test\\LMWN-AE-Exam\\ae-exam-main', 'use_colors': 'True', 'indirect_selection': 'eager', 'invocation_command': 'dbt debug', 'use_experimental_parser': 'False', 'log_path': 'D:\\LMWN_Test\\LMWN-AE-Exam\\ae-exam-main\\logs'}
+[0m16:21:41.623790 [info ] [MainThread]: dbt version: 1.11.7
+[0m16:21:41.624316 [info ] [MainThread]: python version: 3.12.10
+[0m16:21:41.624316 [info ] [MainThread]: python path: D:\LMWN_Test\LMWN-AE-Exam\ae-exam-main\.venv\Scripts\python.exe
+[0m16:21:41.624316 [info ] [MainThread]: os info: Windows-11-10.0.26200-SP0
+[0m16:21:41.700158 [info ] [MainThread]: Using profiles dir at D:\LMWN_Test\LMWN-AE-Exam\ae-exam-main
+[0m16:21:41.700158 [info ] [MainThread]: Using profiles.yml file at D:\LMWN_Test\LMWN-AE-Exam\ae-exam-main\profiles.yml
+[0m16:21:41.701145 [info ] [MainThread]: Using dbt_project.yml file at D:\LMWN_Test\LMWN-AE-Exam\ae-exam-main\dbt_project.yml
+[0m16:21:41.702229 [info ] [MainThread]: adapter type: duckdb
+[0m16:21:41.702229 [info ] [MainThread]: adapter version: 1.10.1
+[0m16:21:41.777997 [info ] [MainThread]: Configuration:
+[0m16:21:41.778983 [info ] [MainThread]:   profiles.yml file [[32mOK found and valid[0m]
+[0m16:21:41.778983 [info ] [MainThread]:   dbt_project.yml file [[32mOK found and valid[0m]
+[0m16:21:41.779998 [info ] [MainThread]: Required dependencies:
+[0m16:21:41.779998 [debug] [MainThread]: Executing "git --help"
+[0m16:21:41.807306 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--no-lazy-fetch]\n           [--no-optional-locks] [--no-advice] [--bare] [--git-dir=<path>]\n           [--work-tree=<path>] [--namespace=<name>] [--config-env=<name>=<envvar>]\n           <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone      Clone a repository into a new directory\n   init       Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add        Add file contents to the index\n   mv         Move or rename a file, a directory, or a symlink\n   restore    Restore working tree files\n   rm         Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect     Use binary search to find the commit that introduced a bug\n   diff       Show changes between commits, commit and working tree, etc\n   grep       Print lines matching a pattern\n   log        Show commit logs\n   show       Show various types of objects\n   status     Show the working tree status\n\ngrow, mark and tweak your common history\n   backfill   Download missing objects in a partial clone\n   branch     List, create, or delete branches\n   commit     Record changes to the repository\n   merge      Join two or more development histories together\n   rebase     Reapply commits on top of another base tip\n   reset      Reset current HEAD to the specified state\n   switch     Switch branches\n   tag        Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch      Download objects and refs from another repository\n   pull       Fetch from and integrate with another repository or a local branch\n   push       Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m16:21:41.808323 [debug] [MainThread]: STDERR: "b''"
+[0m16:21:41.808323 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m16:21:41.808323 [info ] [MainThread]: Connection:
+[0m16:21:41.808323 [info ] [MainThread]:   database: ae_exam_db
+[0m16:21:41.809323 [info ] [MainThread]:   schema: main
+[0m16:21:41.809323 [info ] [MainThread]:   path: D:\LMWN_Test\LMWN-AE-Exam\ae-exam-main\Data Sources\ae_exam_db.duckdb
+[0m16:21:41.809323 [info ] [MainThread]:   config_options: None
+[0m16:21:41.810306 [info ] [MainThread]:   extensions: None
+[0m16:21:41.810306 [info ] [MainThread]:   settings: {}
+[0m16:21:41.810306 [info ] [MainThread]:   external_root: .
+[0m16:21:41.810306 [info ] [MainThread]:   use_credential_provider: None
+[0m16:21:41.810306 [info ] [MainThread]:   attach: None
+[0m16:21:41.810306 [info ] [MainThread]:   filesystems: None
+[0m16:21:41.811810 [info ] [MainThread]:   remote: None
+[0m16:21:41.811810 [info ] [MainThread]:   plugins: None
+[0m16:21:41.812821 [info ] [MainThread]:   disable_transactions: False
+[0m16:21:41.813821 [info ] [MainThread]: Registered adapter: duckdb=1.10.1
+[0m16:21:41.922816 [debug] [MainThread]: Acquiring new duckdb connection 'debug'
+[0m16:21:41.950073 [debug] [MainThread]: Using duckdb connection "debug"
+[0m16:21:41.950073 [debug] [MainThread]: On debug: select 1 as id
+[0m16:21:41.950073 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m16:21:41.963114 [debug] [MainThread]: SQL status: OK in 0.013 seconds
+[0m16:21:41.964115 [debug] [MainThread]: On debug: Close
+[0m16:21:41.964115 [info ] [MainThread]:   Connection test: [[32mOK connection ok[0m]
+
+[0m16:21:41.965114 [info ] [MainThread]: [32mAll checks passed![0m
+[0m16:21:41.965620 [debug] [MainThread]: Command `dbt debug` succeeded at 16:21:41.965620 after 0.48 seconds
+[0m16:21:41.965620 [debug] [MainThread]: Connection 'debug' was properly closed.
+[0m16:21:41.966627 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001DD4F2299D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001DD00116060>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001DD00007D10>]}
+[0m16:21:41.966627 [debug] [MainThread]: Flushing usage events
+[0m16:21:43.121997 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m16:23:07.283965 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001B4DFBCC1A0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001B4DCE0CC20>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001B4DC50D460>]}
+
+
+============================== 16:23:07.287988 | 6cb5155e-5ef5-41ed-b349-ce443590c1df ==============================
+[0m16:23:07.287988 [info ] [MainThread]: Running with dbt=1.11.7
+[0m16:23:07.288997 [debug] [MainThread]: running dbt with arguments {'version_check': 'True', 'no_print': 'None', 'static_parser': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'printer_width': '80', 'write_json': 'True', 'empty': 'False', 'log_cache_events': 'False', 'introspect': 'True', 'cache_selected_only': 'False', 'fail_fast': 'False', 'debug': 'False', 'log_format': 'default', 'partial_parse': 'True', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'profiles_dir': 'D:\\LMWN_Test\\LMWN-AE-Exam\\ae-exam-main', 'indirect_selection': 'eager', 'invocation_command': 'dbt run --select model_stg_app_sessions.sql', 'use_colors': 'True', 'use_experimental_parser': 'False', 'log_path': 'D:\\LMWN_Test\\LMWN-AE-Exam\\ae-exam-main\\logs'}
+[0m16:23:07.437776 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '6cb5155e-5ef5-41ed-b349-ce443590c1df', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001B4E02639B0>]}
+[0m16:23:07.480206 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '6cb5155e-5ef5-41ed-b349-ce443590c1df', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001B4E1318EC0>]}
+[0m16:23:07.482964 [info ] [MainThread]: Registered adapter: duckdb=1.10.1
+[0m16:23:07.593494 [debug] [MainThread]: checksum: b80718358155fc17c3559352095564dd56ada1cc1a1c0ef2e62c857e71583775, vars: {}, profile: , target: , version: 1.11.7
+[0m16:23:07.632319 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+[0m16:23:07.633318 [debug] [MainThread]: Nothing changed, skipping partial parsing.
+[0m16:23:07.633318 [debug] [MainThread]: Partial parsing enabled, no changes found, skipping parsing
+[0m16:23:07.636867 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '6cb5155e-5ef5-41ed-b349-ce443590c1df', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001B48014A7B0>]}
+[0m16:23:07.659056 [debug] [MainThread]: Wrote artifact WritableManifest to D:\LMWN_Test\LMWN-AE-Exam\ae-exam-main\target\manifest.json
+[0m16:23:07.662061 [debug] [MainThread]: Wrote artifact SemanticManifest to D:\LMWN_Test\LMWN-AE-Exam\ae-exam-main\target\semantic_manifest.json
+[0m16:23:07.707090 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '6cb5155e-5ef5-41ed-b349-ce443590c1df', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001B480469C40>]}
+[0m16:23:07.708089 [info ] [MainThread]: Found 474 macros
+[0m16:23:07.708089 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '6cb5155e-5ef5-41ed-b349-ce443590c1df', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001B4802C6450>]}
+[0m16:23:07.708089 [warn ] [MainThread]: The selection criterion 'model_stg_app_sessions.sql' does not match any enabled nodes
+[0m16:23:07.709094 [warn ] [MainThread]: Nothing to do. Try checking your model configs and model specification args
+[0m16:23:07.711086 [debug] [MainThread]: Command end result
+[0m16:23:07.723348 [debug] [MainThread]: Wrote artifact WritableManifest to D:\LMWN_Test\LMWN-AE-Exam\ae-exam-main\target\manifest.json
+[0m16:23:07.725350 [debug] [MainThread]: Wrote artifact SemanticManifest to D:\LMWN_Test\LMWN-AE-Exam\ae-exam-main\target\semantic_manifest.json
+[0m16:23:07.732717 [debug] [MainThread]: Wrote artifact RunExecutionResult to D:\LMWN_Test\LMWN-AE-Exam\ae-exam-main\target\run_results.json
+[0m16:23:07.733728 [debug] [MainThread]: Command `dbt run` succeeded at 16:23:07.733728 after 0.58 seconds
+[0m16:23:07.733728 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001B4E01F1430>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001B4E01F1A00>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001B4E01F1580>]}
+[0m16:23:07.733728 [debug] [MainThread]: Flushing usage events
+[0m16:23:08.939590 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m16:24:17.821450 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002A238207440>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002A2382070E0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002A238207E30>]}
+
+
+============================== 16:24:17.826017 | e9efa4dc-7da8-4258-b30a-111f79148d89 ==============================
+[0m16:24:17.826017 [info ] [MainThread]: Running with dbt=1.11.7
+[0m16:24:17.827002 [debug] [MainThread]: running dbt with arguments {'version_check': 'True', 'no_print': 'None', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'target_path': 'None', 'printer_width': '80', 'write_json': 'True', 'empty': 'False', 'log_cache_events': 'False', 'introspect': 'True', 'cache_selected_only': 'False', 'log_format': 'default', 'debug': 'False', 'fail_fast': 'False', 'partial_parse': 'True', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'profiles_dir': 'D:\\LMWN_Test\\LMWN-AE-Exam\\ae-exam-main', 'invocation_command': 'dbt run --select model_stg_app_sessions.sql', 'use_colors': 'True', 'indirect_selection': 'eager', 'use_experimental_parser': 'False', 'log_path': 'D:\\LMWN_Test\\LMWN-AE-Exam\\ae-exam-main\\logs'}
+[0m16:24:17.982248 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': 'e9efa4dc-7da8-4258-b30a-111f79148d89', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002A2382073B0>]}
+[0m16:24:18.024313 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': 'e9efa4dc-7da8-4258-b30a-111f79148d89', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002A235CF9550>]}
+[0m16:24:18.026901 [info ] [MainThread]: Registered adapter: duckdb=1.10.1
+[0m16:24:18.136612 [debug] [MainThread]: checksum: b80718358155fc17c3559352095564dd56ada1cc1a1c0ef2e62c857e71583775, vars: {}, profile: , target: , version: 1.11.7
+[0m16:24:18.177600 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+[0m16:24:18.177600 [debug] [MainThread]: Nothing changed, skipping partial parsing.
+[0m16:24:18.177600 [debug] [MainThread]: Partial parsing enabled, no changes found, skipping parsing
+[0m16:24:18.180621 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': 'e9efa4dc-7da8-4258-b30a-111f79148d89', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002A20006B620>]}
+[0m16:24:18.202396 [debug] [MainThread]: Wrote artifact WritableManifest to D:\LMWN_Test\LMWN-AE-Exam\ae-exam-main\target\manifest.json
+[0m16:24:18.204386 [debug] [MainThread]: Wrote artifact SemanticManifest to D:\LMWN_Test\LMWN-AE-Exam\ae-exam-main\target\semantic_manifest.json
+[0m16:24:18.216122 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': 'e9efa4dc-7da8-4258-b30a-111f79148d89', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002A2003666C0>]}
+[0m16:24:18.217130 [info ] [MainThread]: Found 474 macros
+[0m16:24:18.217130 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'e9efa4dc-7da8-4258-b30a-111f79148d89', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002A239FA5B20>]}
+[0m16:24:18.217130 [warn ] [MainThread]: The selection criterion 'model_stg_app_sessions.sql' does not match any enabled nodes
+[0m16:24:18.218141 [warn ] [MainThread]: Nothing to do. Try checking your model configs and model specification args
+[0m16:24:18.219140 [debug] [MainThread]: Command end result
+[0m16:24:18.231663 [debug] [MainThread]: Wrote artifact WritableManifest to D:\LMWN_Test\LMWN-AE-Exam\ae-exam-main\target\manifest.json
+[0m16:24:18.233679 [debug] [MainThread]: Wrote artifact SemanticManifest to D:\LMWN_Test\LMWN-AE-Exam\ae-exam-main\target\semantic_manifest.json
+[0m16:24:18.236216 [debug] [MainThread]: Wrote artifact RunExecutionResult to D:\LMWN_Test\LMWN-AE-Exam\ae-exam-main\target\run_results.json
+[0m16:24:18.236216 [debug] [MainThread]: Command `dbt run` succeeded at 16:24:18.236216 after 0.54 seconds
+[0m16:24:18.237723 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002A238A49160>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002A238B93230>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002A238B91520>]}
+[0m16:24:18.237723 [debug] [MainThread]: Flushing usage events
+[0m16:24:19.423975 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m16:25:18.286085 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E86BF93890>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E86F3C09E0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E86F3C2180>]}
+
+
+============================== 16:25:18.290603 | a7b576e7-469d-4641-aa63-7513ea8a1d3f ==============================
+[0m16:25:18.290603 [info ] [MainThread]: Running with dbt=1.11.7
+[0m16:25:18.290603 [debug] [MainThread]: running dbt with arguments {'static_parser': 'True', 'no_print': 'None', 'version_check': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'target_path': 'None', 'printer_width': '80', 'write_json': 'True', 'empty': 'False', 'log_cache_events': 'False', 'introspect': 'True', 'cache_selected_only': 'False', 'log_format': 'default', 'debug': 'False', 'fail_fast': 'False', 'profiles_dir': 'D:\\LMWN_Test\\LMWN-AE-Exam\\ae-exam-main', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'partial_parse': 'True', 'invocation_command': 'dbt run --select model_stg_app_sessions.sql', 'indirect_selection': 'eager', 'use_colors': 'True', 'use_experimental_parser': 'False', 'log_path': 'D:\\LMWN_Test\\LMWN-AE-Exam\\ae-exam-main\\logs'}
+[0m16:25:18.438015 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': 'a7b576e7-469d-4641-aa63-7513ea8a1d3f', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E870E074D0>]}
+[0m16:25:18.479745 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': 'a7b576e7-469d-4641-aa63-7513ea8a1d3f', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E86FA61940>]}
+[0m16:25:18.481755 [info ] [MainThread]: Registered adapter: duckdb=1.10.1
+[0m16:25:18.592732 [debug] [MainThread]: checksum: b80718358155fc17c3559352095564dd56ada1cc1a1c0ef2e62c857e71583775, vars: {}, profile: , target: , version: 1.11.7
+[0m16:25:18.630883 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+[0m16:25:18.630883 [debug] [MainThread]: Nothing changed, skipping partial parsing.
+[0m16:25:18.631905 [debug] [MainThread]: Partial parsing enabled, no changes found, skipping parsing
+[0m16:25:18.633906 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': 'a7b576e7-469d-4641-aa63-7513ea8a1d3f', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E80028FF50>]}
+[0m16:25:18.657514 [debug] [MainThread]: Wrote artifact WritableManifest to D:\LMWN_Test\LMWN-AE-Exam\ae-exam-main\target\manifest.json
+[0m16:25:18.659514 [debug] [MainThread]: Wrote artifact SemanticManifest to D:\LMWN_Test\LMWN-AE-Exam\ae-exam-main\target\semantic_manifest.json
+[0m16:25:18.671074 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': 'a7b576e7-469d-4641-aa63-7513ea8a1d3f', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E80036A8D0>]}
+[0m16:25:18.671074 [info ] [MainThread]: Found 474 macros
+[0m16:25:18.672075 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'a7b576e7-469d-4641-aa63-7513ea8a1d3f', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E80006BAA0>]}
+[0m16:25:18.672075 [warn ] [MainThread]: The selection criterion 'model_stg_app_sessions.sql' does not match any enabled nodes
+[0m16:25:18.673076 [warn ] [MainThread]: Nothing to do. Try checking your model configs and model specification args
+[0m16:25:18.675078 [debug] [MainThread]: Command end result
+[0m16:25:18.685217 [debug] [MainThread]: Wrote artifact WritableManifest to D:\LMWN_Test\LMWN-AE-Exam\ae-exam-main\target\manifest.json
+[0m16:25:18.686224 [debug] [MainThread]: Wrote artifact SemanticManifest to D:\LMWN_Test\LMWN-AE-Exam\ae-exam-main\target\semantic_manifest.json
+[0m16:25:18.690744 [debug] [MainThread]: Wrote artifact RunExecutionResult to D:\LMWN_Test\LMWN-AE-Exam\ae-exam-main\target\run_results.json
+[0m16:25:18.691783 [debug] [MainThread]: Command `dbt run` succeeded at 16:25:18.691783 after 0.52 seconds
+[0m16:25:18.692794 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E86BF01430>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E86EEE4500>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E86FC25D60>]}
+[0m16:25:18.693904 [debug] [MainThread]: Flushing usage events
+[0m16:25:19.878463 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m16:25:55.765022 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000013A67C1CD10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000013A6A30B0E0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000013A6A30BFB0>]}
+
+
+============================== 16:25:55.769550 | 14ade969-3215-4599-8df8-665afe94f62e ==============================
+[0m16:25:55.769550 [info ] [MainThread]: Running with dbt=1.11.7
+[0m16:25:55.769550 [debug] [MainThread]: running dbt with arguments {'static_parser': 'True', 'no_print': 'None', 'version_check': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'printer_width': '80', 'write_json': 'True', 'empty': 'False', 'log_cache_events': 'False', 'introspect': 'True', 'cache_selected_only': 'False', 'fail_fast': 'False', 'debug': 'False', 'log_format': 'default', 'partial_parse': 'True', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'profiles_dir': 'D:\\LMWN_Test\\LMWN-AE-Exam\\ae-exam-main', 'invocation_command': 'dbt run --select model_stg_app_sessions', 'use_colors': 'True', 'indirect_selection': 'eager', 'use_experimental_parser': 'False', 'log_path': 'D:\\LMWN_Test\\LMWN-AE-Exam\\ae-exam-main\\logs'}
+[0m16:25:55.916339 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '14ade969-3215-4599-8df8-665afe94f62e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000013A6A389FA0>]}
+[0m16:25:55.959080 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '14ade969-3215-4599-8df8-665afe94f62e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000013A6AE1F8F0>]}
+[0m16:25:55.960066 [info ] [MainThread]: Registered adapter: duckdb=1.10.1
+[0m16:25:56.067090 [debug] [MainThread]: checksum: b80718358155fc17c3559352095564dd56ada1cc1a1c0ef2e62c857e71583775, vars: {}, profile: , target: , version: 1.11.7
+[0m16:25:56.106804 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+[0m16:25:56.106804 [debug] [MainThread]: Nothing changed, skipping partial parsing.
+[0m16:25:56.106804 [debug] [MainThread]: Partial parsing enabled, no changes found, skipping parsing
+[0m16:25:56.109810 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '14ade969-3215-4599-8df8-665afe94f62e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000013A6B0721E0>]}
+[0m16:25:56.133049 [debug] [MainThread]: Wrote artifact WritableManifest to D:\LMWN_Test\LMWN-AE-Exam\ae-exam-main\target\manifest.json
+[0m16:25:56.135036 [debug] [MainThread]: Wrote artifact SemanticManifest to D:\LMWN_Test\LMWN-AE-Exam\ae-exam-main\target\semantic_manifest.json
+[0m16:25:56.148335 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '14ade969-3215-4599-8df8-665afe94f62e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000013A0046A630>]}
+[0m16:25:56.148335 [info ] [MainThread]: Found 474 macros
+[0m16:25:56.149334 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '14ade969-3215-4599-8df8-665afe94f62e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000013A0036E600>]}
+[0m16:25:56.149334 [warn ] [MainThread]: The selection criterion 'model_stg_app_sessions' does not match any enabled nodes
+[0m16:25:56.150338 [warn ] [MainThread]: Nothing to do. Try checking your model configs and model specification args
+[0m16:25:56.151337 [debug] [MainThread]: Command end result
+[0m16:25:56.161013 [debug] [MainThread]: Wrote artifact WritableManifest to D:\LMWN_Test\LMWN-AE-Exam\ae-exam-main\target\manifest.json
+[0m16:25:56.163228 [debug] [MainThread]: Wrote artifact SemanticManifest to D:\LMWN_Test\LMWN-AE-Exam\ae-exam-main\target\semantic_manifest.json
+[0m16:25:56.167242 [debug] [MainThread]: Wrote artifact RunExecutionResult to D:\LMWN_Test\LMWN-AE-Exam\ae-exam-main\target\run_results.json
+[0m16:25:56.168244 [debug] [MainThread]: Command `dbt run` succeeded at 16:25:56.168244 after 0.53 seconds
+[0m16:25:56.168244 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000013A6A8E1220>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000013A67321490>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000013A6AE81A60>]}
+[0m16:25:56.169242 [debug] [MainThread]: Flushing usage events
+[0m16:25:57.290887 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m16:26:13.241482 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000139BB18CDA0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000139BE0791C0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000139BDA70980>]}
+
+
+============================== 16:26:13.245985 | ee5ac765-70d1-4be8-b6fd-c15a07d37fe6 ==============================
+[0m16:26:13.245985 [info ] [MainThread]: Running with dbt=1.11.7
+[0m16:26:13.245985 [debug] [MainThread]: running dbt with arguments {'version_check': 'True', 'no_print': 'None', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'target_path': 'None', 'printer_width': '80', 'write_json': 'True', 'introspect': 'True', 'log_cache_events': 'False', 'empty': 'None', 'cache_selected_only': 'False', 'fail_fast': 'False', 'debug': 'False', 'log_format': 'default', 'profiles_dir': 'D:\\LMWN_Test\\LMWN-AE-Exam\\ae-exam-main', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'partial_parse': 'True', 'indirect_selection': 'eager', 'use_colors': 'True', 'invocation_command': 'dbt list', 'use_experimental_parser': 'False', 'log_path': 'D:\\LMWN_Test\\LMWN-AE-Exam\\ae-exam-main\\logs'}
+[0m16:26:13.400232 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': 'ee5ac765-70d1-4be8-b6fd-c15a07d37fe6', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000139BB27A210>]}
+[0m16:26:13.443722 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': 'ee5ac765-70d1-4be8-b6fd-c15a07d37fe6', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000139BDECA150>]}
+[0m16:26:13.445242 [info ] [MainThread]: Registered adapter: duckdb=1.10.1
+[0m16:26:13.558306 [debug] [MainThread]: checksum: b80718358155fc17c3559352095564dd56ada1cc1a1c0ef2e62c857e71583775, vars: {}, profile: , target: , version: 1.11.7
+[0m16:26:13.597454 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+[0m16:26:13.597454 [debug] [MainThread]: Nothing changed, skipping partial parsing.
+[0m16:26:13.597454 [debug] [MainThread]: Partial parsing enabled, no changes found, skipping parsing
+[0m16:26:13.600452 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': 'ee5ac765-70d1-4be8-b6fd-c15a07d37fe6', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000139801C5FD0>]}
+[0m16:26:13.623765 [debug] [MainThread]: Wrote artifact WritableManifest to D:\LMWN_Test\LMWN-AE-Exam\ae-exam-main\target\manifest.json
+[0m16:26:13.625293 [debug] [MainThread]: Wrote artifact SemanticManifest to D:\LMWN_Test\LMWN-AE-Exam\ae-exam-main\target\semantic_manifest.json
+[0m16:26:13.661907 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'ee5ac765-70d1-4be8-b6fd-c15a07d37fe6', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000013980069580>]}
+[0m16:26:13.661907 [warn ] [MainThread]: No nodes selected!
+[0m16:26:13.662935 [debug] [MainThread]: Command `dbt list` succeeded at 16:26:13.662935 after 0.55 seconds
+[0m16:26:13.662935 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000139BDAA8F80>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000139B7EAED80>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000139BE2E9CA0>]}
+[0m16:26:13.663936 [debug] [MainThread]: Flushing usage events
+[0m16:26:14.795419 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m16:35:29.146806 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002319E83D670>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002319E711F70>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002319DC08B00>]}
+
+
+============================== 16:35:29.150819 | 71177a61-2c8d-46f8-911e-674d8584b4b7 ==============================
+[0m16:35:29.150819 [info ] [MainThread]: Running with dbt=1.11.7
+[0m16:35:29.150819 [debug] [MainThread]: running dbt with arguments {'static_parser': 'True', 'no_print': 'None', 'version_check': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'printer_width': '80', 'write_json': 'True', 'empty': 'None', 'log_cache_events': 'False', 'introspect': 'True', 'cache_selected_only': 'False', 'fail_fast': 'False', 'debug': 'False', 'log_format': 'default', 'profiles_dir': 'C:\\Users\\RatthasitBuathongcha\\.dbt', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'partial_parse': 'True', 'indirect_selection': 'eager', 'use_colors': 'True', 'invocation_command': 'dbt debug', 'use_experimental_parser': 'False', 'log_path': 'D:\\LMWN_Test\\LMWN-AE-Exam\\ae-exam-main\\logs'}
+[0m16:35:29.160314 [info ] [MainThread]: dbt version: 1.11.7
+[0m16:35:29.161827 [info ] [MainThread]: python version: 3.12.10
+[0m16:35:29.161827 [info ] [MainThread]: python path: D:\LMWN_Test\LMWN-AE-Exam\ae-exam-main\.venv\Scripts\python.exe
+[0m16:35:29.162836 [info ] [MainThread]: os info: Windows-11-10.0.26200-SP0
+[0m16:35:29.162836 [info ] [MainThread]: Using profiles dir at C:\Users\RatthasitBuathongcha\.dbt
+[0m16:35:29.163834 [info ] [MainThread]: Using profiles.yml file at C:\Users\RatthasitBuathongcha\.dbt\profiles.yml
+[0m16:35:29.163834 [info ] [MainThread]: Using dbt_project.yml file at D:\LMWN_Test\LMWN-AE-Exam\ae-exam-main\dbt_project.yml
+[0m16:35:29.241130 [info ] [MainThread]: Configuration:
+[0m16:35:29.241130 [info ] [MainThread]:   profiles.yml file [[31mERROR not found[0m]
+[0m16:35:29.242120 [info ] [MainThread]:   dbt_project.yml file [[32mOK found and valid[0m]
+[0m16:35:29.242120 [info ] [MainThread]: Required dependencies:
+[0m16:35:29.242120 [debug] [MainThread]: Executing "git --help"
+[0m16:35:29.276591 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--no-lazy-fetch]\n           [--no-optional-locks] [--no-advice] [--bare] [--git-dir=<path>]\n           [--work-tree=<path>] [--namespace=<name>] [--config-env=<name>=<envvar>]\n           <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone      Clone a repository into a new directory\n   init       Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add        Add file contents to the index\n   mv         Move or rename a file, a directory, or a symlink\n   restore    Restore working tree files\n   rm         Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect     Use binary search to find the commit that introduced a bug\n   diff       Show changes between commits, commit and working tree, etc\n   grep       Print lines matching a pattern\n   log        Show commit logs\n   show       Show various types of objects\n   status     Show the working tree status\n\ngrow, mark and tweak your common history\n   backfill   Download missing objects in a partial clone\n   branch     List, create, or delete branches\n   commit     Record changes to the repository\n   merge      Join two or more development histories together\n   rebase     Reapply commits on top of another base tip\n   reset      Reset current HEAD to the specified state\n   switch     Switch branches\n   tag        Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch      Download objects and refs from another repository\n   pull       Fetch from and integrate with another repository or a local branch\n   push       Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m16:35:29.277597 [debug] [MainThread]: STDERR: "b''"
+[0m16:35:29.277597 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m16:35:29.277597 [info ] [MainThread]: Connection test skipped since no profile was found
+[0m16:35:29.278600 [info ] [MainThread]: [31m1 check failed:[0m
+[0m16:35:29.279598 [info ] [MainThread]: dbt looked for a profiles.yml file in C:\Users\RatthasitBuathongcha\.dbt\profiles.yml, but did
+not find one. For more information on configuring your profile, consult the
+documentation:
+
+https://docs.getdbt.com/docs/configure-your-profile
+
+
+[0m16:35:29.280598 [debug] [MainThread]: Command `dbt debug` failed at 16:35:29.280598 after 0.29 seconds
+[0m16:35:29.280598 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002319E80C080>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002319E1E4C20>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002319E45F470>]}
+[0m16:35:29.280598 [debug] [MainThread]: Flushing usage events
+[0m16:35:30.484226 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m16:35:48.229219 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000203A435C170>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000203A7A6D100>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000203A7BB3E30>]}
+
+
+============================== 16:35:48.233233 | 237ffb6d-d040-4ff5-a818-2f543f95cd10 ==============================
+[0m16:35:48.233233 [info ] [MainThread]: Running with dbt=1.11.7
+[0m16:35:48.233233 [debug] [MainThread]: running dbt with arguments {'version_check': 'True', 'no_print': 'None', 'static_parser': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'printer_width': '80', 'write_json': 'True', 'empty': 'None', 'log_cache_events': 'False', 'introspect': 'True', 'cache_selected_only': 'False', 'log_format': 'default', 'debug': 'False', 'fail_fast': 'False', 'profiles_dir': 'C:\\Users\\RatthasitBuathongcha\\.dbt', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'partial_parse': 'True', 'indirect_selection': 'eager', 'invocation_command': 'dbt debug', 'use_colors': 'True', 'use_experimental_parser': 'False', 'log_path': 'D:\\LMWN_Test\\LMWN-AE-Exam\\ae-exam-main\\logs'}
+[0m16:35:48.242283 [info ] [MainThread]: dbt version: 1.11.7
+[0m16:35:48.242283 [info ] [MainThread]: python version: 3.12.10
+[0m16:35:48.243282 [info ] [MainThread]: python path: D:\LMWN_Test\LMWN-AE-Exam\ae-exam-main\.venv\Scripts\python.exe
+[0m16:35:48.243945 [info ] [MainThread]: os info: Windows-11-10.0.26200-SP0
+[0m16:35:48.243945 [info ] [MainThread]: Using profiles dir at C:\Users\RatthasitBuathongcha\.dbt
+[0m16:35:48.243945 [info ] [MainThread]: Using profiles.yml file at C:\Users\RatthasitBuathongcha\.dbt\profiles.yml
+[0m16:35:48.243945 [info ] [MainThread]: Using dbt_project.yml file at D:\LMWN_Test\LMWN-AE-Exam\ae-exam-main\dbt_project.yml
+[0m16:35:48.321443 [info ] [MainThread]: Configuration:
+[0m16:35:48.322459 [info ] [MainThread]:   profiles.yml file [[31mERROR not found[0m]
+[0m16:35:48.322459 [info ] [MainThread]:   dbt_project.yml file [[32mOK found and valid[0m]
+[0m16:35:48.323486 [info ] [MainThread]: Required dependencies:
+[0m16:35:48.323486 [debug] [MainThread]: Executing "git --help"
+[0m16:35:48.354015 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--no-lazy-fetch]\n           [--no-optional-locks] [--no-advice] [--bare] [--git-dir=<path>]\n           [--work-tree=<path>] [--namespace=<name>] [--config-env=<name>=<envvar>]\n           <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone      Clone a repository into a new directory\n   init       Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add        Add file contents to the index\n   mv         Move or rename a file, a directory, or a symlink\n   restore    Restore working tree files\n   rm         Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect     Use binary search to find the commit that introduced a bug\n   diff       Show changes between commits, commit and working tree, etc\n   grep       Print lines matching a pattern\n   log        Show commit logs\n   show       Show various types of objects\n   status     Show the working tree status\n\ngrow, mark and tweak your common history\n   backfill   Download missing objects in a partial clone\n   branch     List, create, or delete branches\n   commit     Record changes to the repository\n   merge      Join two or more development histories together\n   rebase     Reapply commits on top of another base tip\n   reset      Reset current HEAD to the specified state\n   switch     Switch branches\n   tag        Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch      Download objects and refs from another repository\n   pull       Fetch from and integrate with another repository or a local branch\n   push       Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m16:35:48.354015 [debug] [MainThread]: STDERR: "b''"
+[0m16:35:48.354015 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m16:35:48.354015 [info ] [MainThread]: Connection test skipped since no profile was found
+[0m16:35:48.355521 [info ] [MainThread]: [31m1 check failed:[0m
+[0m16:35:48.355521 [info ] [MainThread]: dbt looked for a profiles.yml file in C:\Users\RatthasitBuathongcha\.dbt\profiles.yml, but did
+not find one. For more information on configuring your profile, consult the
+documentation:
+
+https://docs.getdbt.com/docs/configure-your-profile
+
+
+[0m16:35:48.356528 [debug] [MainThread]: Command `dbt debug` failed at 16:35:48.356528 after 0.26 seconds
+[0m16:35:48.356528 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000203A859F080>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000203A8697350>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000203A75E6F00>]}
+[0m16:35:48.356528 [debug] [MainThread]: Flushing usage events
+[0m16:35:49.461368 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m16:36:08.085463 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001CB34D7D640>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001CB34D7D760>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001CB34957620>]}
+
+
+============================== 16:36:08.088642 | 085c1aa6-e9f3-4957-96af-2b59ed452920 ==============================
+[0m16:36:08.088642 [info ] [MainThread]: Running with dbt=1.11.7
+[0m16:36:08.089676 [debug] [MainThread]: running dbt with arguments {'version_check': 'True', 'no_print': 'None', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'target_path': 'None', 'printer_width': '80', 'write_json': 'True', 'empty': 'None', 'log_cache_events': 'False', 'introspect': 'True', 'cache_selected_only': 'False', 'log_format': 'default', 'debug': 'False', 'fail_fast': 'False', 'profiles_dir': 'D:\\LMWN_Test\\LMWN-AE-Exam\\ae-exam-main\\lmwn_ae_exam', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'partial_parse': 'True', 'invocation_command': 'dbt debug', 'indirect_selection': 'eager', 'use_colors': 'True', 'use_experimental_parser': 'False', 'log_path': 'D:\\LMWN_Test\\LMWN-AE-Exam\\ae-exam-main\\logs'}
+[0m16:36:08.099219 [info ] [MainThread]: dbt version: 1.11.7
+[0m16:36:08.099219 [info ] [MainThread]: python version: 3.12.10
+[0m16:36:08.099219 [info ] [MainThread]: python path: D:\LMWN_Test\LMWN-AE-Exam\ae-exam-main\.venv\Scripts\python.exe
+[0m16:36:08.099219 [info ] [MainThread]: os info: Windows-11-10.0.26200-SP0
+[0m16:36:08.175507 [info ] [MainThread]: Using profiles dir at D:\LMWN_Test\LMWN-AE-Exam\ae-exam-main\lmwn_ae_exam
+[0m16:36:08.175507 [info ] [MainThread]: Using profiles.yml file at D:\LMWN_Test\LMWN-AE-Exam\ae-exam-main\lmwn_ae_exam\profiles.yml
+[0m16:36:08.175507 [info ] [MainThread]: Using dbt_project.yml file at D:\LMWN_Test\LMWN-AE-Exam\ae-exam-main\dbt_project.yml
+[0m16:36:08.177958 [info ] [MainThread]: adapter type: duckdb
+[0m16:36:08.177958 [info ] [MainThread]: adapter version: 1.10.1
+[0m16:36:08.252878 [info ] [MainThread]: Configuration:
+[0m16:36:08.252878 [info ] [MainThread]:   profiles.yml file [[32mOK found and valid[0m]
+[0m16:36:08.253880 [info ] [MainThread]:   dbt_project.yml file [[32mOK found and valid[0m]
+[0m16:36:08.253880 [info ] [MainThread]: Required dependencies:
+[0m16:36:08.253880 [debug] [MainThread]: Executing "git --help"
+[0m16:36:08.284316 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--no-lazy-fetch]\n           [--no-optional-locks] [--no-advice] [--bare] [--git-dir=<path>]\n           [--work-tree=<path>] [--namespace=<name>] [--config-env=<name>=<envvar>]\n           <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone      Clone a repository into a new directory\n   init       Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add        Add file contents to the index\n   mv         Move or rename a file, a directory, or a symlink\n   restore    Restore working tree files\n   rm         Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect     Use binary search to find the commit that introduced a bug\n   diff       Show changes between commits, commit and working tree, etc\n   grep       Print lines matching a pattern\n   log        Show commit logs\n   show       Show various types of objects\n   status     Show the working tree status\n\ngrow, mark and tweak your common history\n   backfill   Download missing objects in a partial clone\n   branch     List, create, or delete branches\n   commit     Record changes to the repository\n   merge      Join two or more development histories together\n   rebase     Reapply commits on top of another base tip\n   reset      Reset current HEAD to the specified state\n   switch     Switch branches\n   tag        Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch      Download objects and refs from another repository\n   pull       Fetch from and integrate with another repository or a local branch\n   push       Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m16:36:08.285827 [debug] [MainThread]: STDERR: "b''"
+[0m16:36:08.285827 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m16:36:08.286838 [info ] [MainThread]: Connection:
+[0m16:36:08.286838 [info ] [MainThread]:   database: ae_exam_db
+[0m16:36:08.286838 [info ] [MainThread]:   schema: main
+[0m16:36:08.286838 [info ] [MainThread]:   path: D:\LMWN_Test\LMWN-AE-Exam\ae-exam-main\Data Sources\ae_exam_db.duckdb
+[0m16:36:08.286838 [info ] [MainThread]:   config_options: None
+[0m16:36:08.288344 [info ] [MainThread]:   extensions: None
+[0m16:36:08.288344 [info ] [MainThread]:   settings: {}
+[0m16:36:08.288344 [info ] [MainThread]:   external_root: .
+[0m16:36:08.289358 [info ] [MainThread]:   use_credential_provider: None
+[0m16:36:08.289980 [info ] [MainThread]:   attach: None
+[0m16:36:08.290992 [info ] [MainThread]:   filesystems: None
+[0m16:36:08.291989 [info ] [MainThread]:   remote: None
+[0m16:36:08.291989 [info ] [MainThread]:   plugins: None
+[0m16:36:08.293992 [info ] [MainThread]:   disable_transactions: False
+[0m16:36:08.293992 [info ] [MainThread]: Registered adapter: duckdb=1.10.1
+[0m16:36:08.411643 [debug] [MainThread]: Acquiring new duckdb connection 'debug'
+[0m16:36:08.436799 [debug] [MainThread]: Using duckdb connection "debug"
+[0m16:36:08.437812 [debug] [MainThread]: On debug: select 1 as id
+[0m16:36:08.437812 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m16:36:08.449453 [debug] [MainThread]: SQL status: OK in 0.012 seconds
+[0m16:36:08.450455 [debug] [MainThread]: On debug: Close
+[0m16:36:08.450455 [info ] [MainThread]:   Connection test: [[32mOK connection ok[0m]
+
+[0m16:36:08.451457 [info ] [MainThread]: [32mAll checks passed![0m
+[0m16:36:08.451457 [debug] [MainThread]: Command `dbt debug` succeeded at 16:36:08.451457 after 0.49 seconds
+[0m16:36:08.452559 [debug] [MainThread]: Connection 'debug' was properly closed.
+[0m16:36:08.452559 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001CB3528E870>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001CB34B50E00>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001CB348CB770>]}
+[0m16:36:08.452559 [debug] [MainThread]: Flushing usage events
+[0m16:36:09.627346 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m16:36:52.005840 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000012A60BCBA40>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000012A60BC9FD0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000012A6053BCB0>]}
+
+
+============================== 16:36:52.009865 | 33ddbacc-1fcd-4b68-b0b2-4865e69d0462 ==============================
+[0m16:36:52.009865 [info ] [MainThread]: Running with dbt=1.11.7
+[0m16:36:52.010849 [debug] [MainThread]: running dbt with arguments {'static_parser': 'True', 'no_print': 'None', 'version_check': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'printer_width': '80', 'write_json': 'True', 'empty': 'None', 'log_cache_events': 'False', 'introspect': 'True', 'cache_selected_only': 'False', 'log_format': 'default', 'debug': 'False', 'fail_fast': 'False', 'profiles_dir': 'D:\\LMWN_Test\\LMWN-AE-Exam\\ae-exam-main\\lmwn_ae_exam', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'partial_parse': 'True', 'indirect_selection': 'eager', 'invocation_command': 'dbt list', 'use_colors': 'True', 'use_experimental_parser': 'False', 'log_path': 'D:\\LMWN_Test\\LMWN-AE-Exam\\ae-exam-main\\logs'}
+[0m16:36:52.158313 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '33ddbacc-1fcd-4b68-b0b2-4865e69d0462', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000012A5E15E3C0>]}
+[0m16:36:52.200459 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '33ddbacc-1fcd-4b68-b0b2-4865e69d0462', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000012A605BA030>]}
+[0m16:36:52.202446 [info ] [MainThread]: Registered adapter: duckdb=1.10.1
+[0m16:36:52.314543 [debug] [MainThread]: checksum: b80718358155fc17c3559352095564dd56ada1cc1a1c0ef2e62c857e71583775, vars: {}, profile: , target: , version: 1.11.7
+[0m16:36:52.353949 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+[0m16:36:52.353949 [debug] [MainThread]: Nothing changed, skipping partial parsing.
+[0m16:36:52.353949 [debug] [MainThread]: Partial parsing enabled, no changes found, skipping parsing
+[0m16:36:52.357462 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '33ddbacc-1fcd-4b68-b0b2-4865e69d0462', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000012A001C5730>]}
+[0m16:36:52.381571 [debug] [MainThread]: Wrote artifact WritableManifest to D:\LMWN_Test\LMWN-AE-Exam\ae-exam-main\target\manifest.json
+[0m16:36:52.383586 [debug] [MainThread]: Wrote artifact SemanticManifest to D:\LMWN_Test\LMWN-AE-Exam\ae-exam-main\target\semantic_manifest.json
+[0m16:36:52.394219 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '33ddbacc-1fcd-4b68-b0b2-4865e69d0462', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000012A00360E90>]}
+[0m16:36:52.394219 [warn ] [MainThread]: No nodes selected!
+[0m16:36:52.395725 [debug] [MainThread]: Command `dbt list` succeeded at 16:36:52.395725 after 0.53 seconds
+[0m16:36:52.395725 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000012A60ABA5A0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000012A61231DF0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000012A61232960>]}
+[0m16:36:52.396735 [debug] [MainThread]: Flushing usage events
+[0m16:36:53.578333 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m16:37:10.775953 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000177C9388BC0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000177C938BAA0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000177C938B770>]}
+
+
+============================== 16:37:10.780975 | 38172705-21e7-4152-983e-457da96f9b42 ==============================
+[0m16:37:10.780975 [info ] [MainThread]: Running with dbt=1.11.7
+[0m16:37:10.780975 [debug] [MainThread]: running dbt with arguments {'static_parser': 'True', 'no_print': 'None', 'version_check': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'printer_width': '80', 'write_json': 'True', 'introspect': 'True', 'log_cache_events': 'False', 'empty': 'None', 'cache_selected_only': 'False', 'fail_fast': 'False', 'debug': 'False', 'log_format': 'default', 'partial_parse': 'True', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'profiles_dir': 'C:\\Users\\RatthasitBuathongcha\\.dbt', 'indirect_selection': 'eager', 'use_colors': 'True', 'invocation_command': 'dbt debug', 'use_experimental_parser': 'False', 'log_path': 'D:\\LMWN_Test\\LMWN-AE-Exam\\ae-exam-main\\logs'}
+[0m16:37:10.790097 [info ] [MainThread]: dbt version: 1.11.7
+[0m16:37:10.790097 [info ] [MainThread]: python version: 3.12.10
+[0m16:37:10.790097 [info ] [MainThread]: python path: D:\LMWN_Test\LMWN-AE-Exam\ae-exam-main\.venv\Scripts\python.exe
+[0m16:37:10.790097 [info ] [MainThread]: os info: Windows-11-10.0.26200-SP0
+[0m16:37:10.791078 [info ] [MainThread]: Using profiles dir at C:\Users\RatthasitBuathongcha\.dbt
+[0m16:37:10.791078 [info ] [MainThread]: Using profiles.yml file at C:\Users\RatthasitBuathongcha\.dbt\profiles.yml
+[0m16:37:10.791078 [info ] [MainThread]: Using dbt_project.yml file at D:\LMWN_Test\LMWN-AE-Exam\ae-exam-main\dbt_project.yml
+[0m16:37:10.865389 [info ] [MainThread]: Configuration:
+[0m16:37:10.866621 [info ] [MainThread]:   profiles.yml file [[31mERROR not found[0m]
+[0m16:37:10.866621 [info ] [MainThread]:   dbt_project.yml file [[32mOK found and valid[0m]
+[0m16:37:10.867616 [info ] [MainThread]: Required dependencies:
+[0m16:37:10.867616 [debug] [MainThread]: Executing "git --help"
+[0m16:37:10.899414 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--no-lazy-fetch]\n           [--no-optional-locks] [--no-advice] [--bare] [--git-dir=<path>]\n           [--work-tree=<path>] [--namespace=<name>] [--config-env=<name>=<envvar>]\n           <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone      Clone a repository into a new directory\n   init       Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add        Add file contents to the index\n   mv         Move or rename a file, a directory, or a symlink\n   restore    Restore working tree files\n   rm         Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect     Use binary search to find the commit that introduced a bug\n   diff       Show changes between commits, commit and working tree, etc\n   grep       Print lines matching a pattern\n   log        Show commit logs\n   show       Show various types of objects\n   status     Show the working tree status\n\ngrow, mark and tweak your common history\n   backfill   Download missing objects in a partial clone\n   branch     List, create, or delete branches\n   commit     Record changes to the repository\n   merge      Join two or more development histories together\n   rebase     Reapply commits on top of another base tip\n   reset      Reset current HEAD to the specified state\n   switch     Switch branches\n   tag        Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch      Download objects and refs from another repository\n   pull       Fetch from and integrate with another repository or a local branch\n   push       Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m16:37:10.900417 [debug] [MainThread]: STDERR: "b''"
+[0m16:37:10.900417 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m16:37:10.901396 [info ] [MainThread]: Connection test skipped since no profile was found
+[0m16:37:10.901396 [info ] [MainThread]: [31m1 check failed:[0m
+[0m16:37:10.901396 [info ] [MainThread]: dbt looked for a profiles.yml file in C:\Users\RatthasitBuathongcha\.dbt\profiles.yml, but did
+not find one. For more information on configuring your profile, consult the
+documentation:
+
+https://docs.getdbt.com/docs/configure-your-profile
+
+
+[0m16:37:10.902401 [debug] [MainThread]: Command `dbt debug` failed at 16:37:10.902401 after 0.25 seconds
+[0m16:37:10.902401 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000177C90783B0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000177C93E33B0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000177C8E3EDE0>]}
+[0m16:37:10.902401 [debug] [MainThread]: Flushing usage events
+[0m16:37:12.023523 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m16:37:45.318920 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000025514E3CC50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000025514541580>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000025517BFC110>]}
+
+
+============================== 16:37:45.323434 | 2c36fb1c-49f7-4b83-a70a-119e4efe33bd ==============================
+[0m16:37:45.323434 [info ] [MainThread]: Running with dbt=1.11.7
+[0m16:37:45.323799 [debug] [MainThread]: running dbt with arguments {'version_check': 'True', 'no_print': 'None', 'static_parser': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'printer_width': '80', 'write_json': 'True', 'empty': 'None', 'log_cache_events': 'False', 'introspect': 'True', 'cache_selected_only': 'False', 'fail_fast': 'False', 'debug': 'False', 'log_format': 'default', 'partial_parse': 'True', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'profiles_dir': 'D:\\LMWN_Test\\LMWN-AE-Exam\\ae-exam-main\\lmwn_ae_exam', 'use_colors': 'True', 'invocation_command': 'dbt list', 'indirect_selection': 'eager', 'use_experimental_parser': 'False', 'log_path': 'D:\\LMWN_Test\\LMWN-AE-Exam\\ae-exam-main\\logs'}
+[0m16:37:45.474738 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '2c36fb1c-49f7-4b83-a70a-119e4efe33bd', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000025514F3A000>]}
+[0m16:37:45.517039 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '2c36fb1c-49f7-4b83-a70a-119e4efe33bd', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002551934F3B0>]}
+[0m16:37:45.519041 [info ] [MainThread]: Registered adapter: duckdb=1.10.1
+[0m16:37:45.636640 [debug] [MainThread]: checksum: b80718358155fc17c3559352095564dd56ada1cc1a1c0ef2e62c857e71583775, vars: {}, profile: , target: , version: 1.11.7
+[0m16:37:45.676193 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+[0m16:37:45.676193 [debug] [MainThread]: Nothing changed, skipping partial parsing.
+[0m16:37:45.676193 [debug] [MainThread]: Partial parsing enabled, no changes found, skipping parsing
+[0m16:37:45.679210 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '2c36fb1c-49f7-4b83-a70a-119e4efe33bd', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000255000B5CD0>]}
+[0m16:37:45.703152 [debug] [MainThread]: Wrote artifact WritableManifest to D:\LMWN_Test\LMWN-AE-Exam\ae-exam-main\target\manifest.json
+[0m16:37:45.705669 [debug] [MainThread]: Wrote artifact SemanticManifest to D:\LMWN_Test\LMWN-AE-Exam\ae-exam-main\target\semantic_manifest.json
+[0m16:37:45.719122 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '2c36fb1c-49f7-4b83-a70a-119e4efe33bd', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002550036F170>]}
+[0m16:37:45.720634 [warn ] [MainThread]: No nodes selected!
+[0m16:37:45.721642 [debug] [MainThread]: Command `dbt list` succeeded at 16:37:45.721642 after 0.53 seconds
+[0m16:37:45.721642 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002551803F260>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000255000DE840>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000255002C1880>]}
+[0m16:37:45.722646 [debug] [MainThread]: Flushing usage events
+[0m16:37:46.952597 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m16:38:24.121307 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000025ECE2CC170>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000025ECF8AA1E0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000025ED1D4CB60>]}
+
+
+============================== 16:38:24.124316 | 42cfd80e-a5ef-4862-9e84-427fb079a221 ==============================
+[0m16:38:24.124316 [info ] [MainThread]: Running with dbt=1.11.7
+[0m16:38:24.125821 [debug] [MainThread]: running dbt with arguments {'version_check': 'True', 'no_print': 'None', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'target_path': 'None', 'printer_width': '80', 'write_json': 'True', 'introspect': 'True', 'log_cache_events': 'False', 'empty': 'None', 'cache_selected_only': 'False', 'fail_fast': 'False', 'debug': 'False', 'log_format': 'default', 'profiles_dir': 'D:\\LMWN_Test\\LMWN-AE-Exam\\ae-exam-main\\lmwn_ae_exam', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'partial_parse': 'True', 'use_colors': 'True', 'invocation_command': 'dbt debug', 'indirect_selection': 'eager', 'use_experimental_parser': 'False', 'log_path': 'D:\\LMWN_Test\\LMWN-AE-Exam\\ae-exam-main\\logs'}
+[0m16:38:24.135481 [info ] [MainThread]: dbt version: 1.11.7
+[0m16:38:24.136488 [info ] [MainThread]: python version: 3.12.10
+[0m16:38:24.136488 [info ] [MainThread]: python path: D:\LMWN_Test\LMWN-AE-Exam\ae-exam-main\.venv\Scripts\python.exe
+[0m16:38:24.136488 [info ] [MainThread]: os info: Windows-11-10.0.26200-SP0
+[0m16:38:24.215838 [info ] [MainThread]: Using profiles dir at D:\LMWN_Test\LMWN-AE-Exam\ae-exam-main\lmwn_ae_exam
+[0m16:38:24.216855 [info ] [MainThread]: Using profiles.yml file at D:\LMWN_Test\LMWN-AE-Exam\ae-exam-main\lmwn_ae_exam\profiles.yml
+[0m16:38:24.216855 [info ] [MainThread]: Using dbt_project.yml file at D:\LMWN_Test\LMWN-AE-Exam\ae-exam-main\dbt_project.yml
+[0m16:38:24.218845 [info ] [MainThread]: adapter type: duckdb
+[0m16:38:24.218845 [info ] [MainThread]: adapter version: 1.10.1
+[0m16:38:24.293722 [info ] [MainThread]: Configuration:
+[0m16:38:24.293722 [info ] [MainThread]:   profiles.yml file [[32mOK found and valid[0m]
+[0m16:38:24.294710 [info ] [MainThread]:   dbt_project.yml file [[32mOK found and valid[0m]
+[0m16:38:24.294710 [info ] [MainThread]: Required dependencies:
+[0m16:38:24.295705 [debug] [MainThread]: Executing "git --help"
+[0m16:38:24.327211 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--no-lazy-fetch]\n           [--no-optional-locks] [--no-advice] [--bare] [--git-dir=<path>]\n           [--work-tree=<path>] [--namespace=<name>] [--config-env=<name>=<envvar>]\n           <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone      Clone a repository into a new directory\n   init       Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add        Add file contents to the index\n   mv         Move or rename a file, a directory, or a symlink\n   restore    Restore working tree files\n   rm         Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect     Use binary search to find the commit that introduced a bug\n   diff       Show changes between commits, commit and working tree, etc\n   grep       Print lines matching a pattern\n   log        Show commit logs\n   show       Show various types of objects\n   status     Show the working tree status\n\ngrow, mark and tweak your common history\n   backfill   Download missing objects in a partial clone\n   branch     List, create, or delete branches\n   commit     Record changes to the repository\n   merge      Join two or more development histories together\n   rebase     Reapply commits on top of another base tip\n   reset      Reset current HEAD to the specified state\n   switch     Switch branches\n   tag        Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch      Download objects and refs from another repository\n   pull       Fetch from and integrate with another repository or a local branch\n   push       Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m16:38:24.327211 [debug] [MainThread]: STDERR: "b''"
+[0m16:38:24.327211 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m16:38:24.328212 [info ] [MainThread]: Connection:
+[0m16:38:24.328212 [info ] [MainThread]:   database: ae_exam_db
+[0m16:38:24.329214 [info ] [MainThread]:   schema: main
+[0m16:38:24.329214 [info ] [MainThread]:   path: D:\LMWN_Test\LMWN-AE-Exam\ae-exam-main\Data Sources\ae_exam_db.duckdb
+[0m16:38:24.329214 [info ] [MainThread]:   config_options: None
+[0m16:38:24.330214 [info ] [MainThread]:   extensions: None
+[0m16:38:24.330214 [info ] [MainThread]:   settings: {}
+[0m16:38:24.330214 [info ] [MainThread]:   external_root: .
+[0m16:38:24.330214 [info ] [MainThread]:   use_credential_provider: None
+[0m16:38:24.331209 [info ] [MainThread]:   attach: None
+[0m16:38:24.331209 [info ] [MainThread]:   filesystems: None
+[0m16:38:24.331209 [info ] [MainThread]:   remote: None
+[0m16:38:24.331209 [info ] [MainThread]:   plugins: None
+[0m16:38:24.332208 [info ] [MainThread]:   disable_transactions: False
+[0m16:38:24.332208 [info ] [MainThread]: Registered adapter: duckdb=1.10.1
+[0m16:38:24.443902 [debug] [MainThread]: Acquiring new duckdb connection 'debug'
+[0m16:38:24.471385 [debug] [MainThread]: Using duckdb connection "debug"
+[0m16:38:24.471385 [debug] [MainThread]: On debug: select 1 as id
+[0m16:38:24.471385 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m16:38:24.484010 [debug] [MainThread]: SQL status: OK in 0.012 seconds
+[0m16:38:24.484010 [debug] [MainThread]: On debug: Close
+[0m16:38:24.484010 [info ] [MainThread]:   Connection test: [[32mOK connection ok[0m]
+
+[0m16:38:24.485516 [info ] [MainThread]: [32mAll checks passed![0m
+[0m16:38:24.485516 [debug] [MainThread]: Command `dbt debug` succeeded at 16:38:24.485516 after 0.49 seconds
+[0m16:38:24.486526 [debug] [MainThread]: Connection 'debug' was properly closed.
+[0m16:38:24.486526 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000025ED1C78E30>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000025ED1A8A0C0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000025E80115BE0>]}
+[0m16:38:24.486526 [debug] [MainThread]: Flushing usage events
+[0m16:38:25.638163 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m16:38:30.790347 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002217A036D20>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002217731CA70>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002217A55A990>]}
+
+
+============================== 16:38:30.794517 | 9276f481-6939-402e-b742-c0a3af097901 ==============================
+[0m16:38:30.794517 [info ] [MainThread]: Running with dbt=1.11.7
+[0m16:38:30.795514 [debug] [MainThread]: running dbt with arguments {'static_parser': 'True', 'no_print': 'None', 'version_check': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'printer_width': '80', 'write_json': 'True', 'empty': 'None', 'log_cache_events': 'False', 'introspect': 'True', 'cache_selected_only': 'False', 'fail_fast': 'False', 'debug': 'False', 'log_format': 'default', 'partial_parse': 'True', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'profiles_dir': 'D:\\LMWN_Test\\LMWN-AE-Exam\\ae-exam-main\\lmwn_ae_exam', 'invocation_command': 'dbt clean', 'indirect_selection': 'eager', 'use_colors': 'True', 'use_experimental_parser': 'False', 'log_path': 'D:\\LMWN_Test\\LMWN-AE-Exam\\ae-exam-main\\logs'}
+[0m16:38:30.882641 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '9276f481-6939-402e-b742-c0a3af097901', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002217A72E900>]}
+[0m16:38:30.897473 [debug] [MainThread]: Command `dbt clean` succeeded at 16:38:30.897473 after 0.26 seconds
+[0m16:38:30.897473 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022179F46870>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002217A4BE330>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002217B8EC140>]}
+[0m16:38:30.898472 [debug] [MainThread]: Flushing usage events
+[0m16:38:32.081221 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m16:38:39.586837 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001909CAFC980>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001909F184560>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001909F184170>]}
+
+
+============================== 16:38:39.591360 | 6efb2594-64a1-4b4a-88bc-98fc820fe30b ==============================
+[0m16:38:39.591360 [info ] [MainThread]: Running with dbt=1.11.7
+[0m16:38:39.592346 [debug] [MainThread]: running dbt with arguments {'version_check': 'True', 'no_print': 'None', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'target_path': 'None', 'printer_width': '80', 'write_json': 'True', 'introspect': 'True', 'log_cache_events': 'False', 'empty': 'None', 'cache_selected_only': 'False', 'fail_fast': 'False', 'debug': 'False', 'log_format': 'default', 'profiles_dir': 'D:\\LMWN_Test\\LMWN-AE-Exam\\ae-exam-main\\lmwn_ae_exam', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'partial_parse': 'True', 'invocation_command': 'dbt parse', 'use_colors': 'True', 'indirect_selection': 'eager', 'use_experimental_parser': 'False', 'log_path': 'D:\\LMWN_Test\\LMWN-AE-Exam\\ae-exam-main\\logs'}
+[0m16:38:39.752365 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '6efb2594-64a1-4b4a-88bc-98fc820fe30b', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000190A10D8D10>]}
+[0m16:38:39.802348 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '6efb2594-64a1-4b4a-88bc-98fc820fe30b', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001909CCD95B0>]}
+[0m16:38:39.804353 [info ] [MainThread]: Registered adapter: duckdb=1.10.1
+[0m16:38:39.929809 [debug] [MainThread]: checksum: b80718358155fc17c3559352095564dd56ada1cc1a1c0ef2e62c857e71583775, vars: {}, profile: , target: , version: 1.11.7
+[0m16:38:39.930809 [info ] [MainThread]: Unable to do partial parsing because saved manifest not found. Starting full parse.
+[0m16:38:39.930809 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'partial_parser', 'label': '6efb2594-64a1-4b4a-88bc-98fc820fe30b', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000190A0FCB1A0>]}
+[0m16:38:40.447541 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '6efb2594-64a1-4b4a-88bc-98fc820fe30b', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000190802EDF70>]}
+[0m16:38:40.450558 [info ] [MainThread]: Performance info: D:\LMWN_Test\LMWN-AE-Exam\ae-exam-main\target\perf_info.json
+[0m16:38:40.479668 [debug] [MainThread]: Wrote artifact WritableManifest to D:\LMWN_Test\LMWN-AE-Exam\ae-exam-main\target\manifest.json
+[0m16:38:40.482672 [debug] [MainThread]: Wrote artifact SemanticManifest to D:\LMWN_Test\LMWN-AE-Exam\ae-exam-main\target\semantic_manifest.json
+[0m16:38:40.482672 [debug] [MainThread]: Command `dbt parse` succeeded at 16:38:40.482672 after 1.02 seconds
+[0m16:38:40.483669 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001909F4DDF70>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001909F4DC740>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001909FD91760>]}
+[0m16:38:40.483669 [debug] [MainThread]: Flushing usage events
+[0m16:38:41.614799 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m16:39:46.576498 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000219C252D100>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000219C44A9C40>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000219C523EC00>]}
+
+
+============================== 16:39:46.581007 | b96a379d-23a5-4a9c-b323-58314bd5e209 ==============================
+[0m16:39:46.581007 [info ] [MainThread]: Running with dbt=1.11.7
+[0m16:39:46.582016 [debug] [MainThread]: running dbt with arguments {'static_parser': 'True', 'no_print': 'None', 'version_check': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'printer_width': '80', 'write_json': 'True', 'empty': 'False', 'log_cache_events': 'False', 'introspect': 'True', 'cache_selected_only': 'False', 'log_format': 'default', 'debug': 'False', 'fail_fast': 'False', 'profiles_dir': 'D:\\LMWN_Test\\LMWN-AE-Exam\\ae-exam-main\\lmwn_ae_exam', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'partial_parse': 'True', 'invocation_command': 'dbt run --select model_stg_app_sessions', 'use_colors': 'True', 'indirect_selection': 'eager', 'use_experimental_parser': 'False', 'log_path': 'D:\\LMWN_Test\\LMWN-AE-Exam\\ae-exam-main\\logs'}
+[0m16:39:46.760093 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': 'b96a379d-23a5-4a9c-b323-58314bd5e209', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000219C595A9C0>]}
+[0m16:39:46.813326 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': 'b96a379d-23a5-4a9c-b323-58314bd5e209', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000219C5764C20>]}
+[0m16:39:46.815833 [info ] [MainThread]: Registered adapter: duckdb=1.10.1
+[0m16:39:46.954328 [debug] [MainThread]: checksum: b80718358155fc17c3559352095564dd56ada1cc1a1c0ef2e62c857e71583775, vars: {}, profile: , target: , version: 1.11.7
+[0m16:39:47.037883 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+[0m16:39:47.037883 [debug] [MainThread]: Nothing changed, skipping partial parsing.
+[0m16:39:47.038389 [debug] [MainThread]: Partial parsing enabled, no changes found, skipping parsing
+[0m16:39:47.042399 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': 'b96a379d-23a5-4a9c-b323-58314bd5e209', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000219802C53A0>]}
+[0m16:39:47.076435 [debug] [MainThread]: Wrote artifact WritableManifest to D:\LMWN_Test\LMWN-AE-Exam\ae-exam-main\target\manifest.json
+[0m16:39:47.079891 [debug] [MainThread]: Wrote artifact SemanticManifest to D:\LMWN_Test\LMWN-AE-Exam\ae-exam-main\target\semantic_manifest.json
+[0m16:39:47.102982 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': 'b96a379d-23a5-4a9c-b323-58314bd5e209', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000219804667E0>]}
+[0m16:39:47.102982 [info ] [MainThread]: Found 474 macros
+[0m16:39:47.103992 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'b96a379d-23a5-4a9c-b323-58314bd5e209', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000219C582E030>]}
+[0m16:39:47.103992 [warn ] [MainThread]: The selection criterion 'model_stg_app_sessions' does not match any enabled nodes
+[0m16:39:47.105500 [warn ] [MainThread]: Nothing to do. Try checking your model configs and model specification args
+[0m16:39:47.107510 [debug] [MainThread]: Command end result
+[0m16:39:47.118540 [debug] [MainThread]: Wrote artifact WritableManifest to D:\LMWN_Test\LMWN-AE-Exam\ae-exam-main\target\manifest.json
+[0m16:39:47.119540 [debug] [MainThread]: Wrote artifact SemanticManifest to D:\LMWN_Test\LMWN-AE-Exam\ae-exam-main\target\semantic_manifest.json
+[0m16:39:47.123294 [debug] [MainThread]: Wrote artifact RunExecutionResult to D:\LMWN_Test\LMWN-AE-Exam\ae-exam-main\target\run_results.json
+[0m16:39:47.124292 [debug] [MainThread]: Command `dbt run` succeeded at 16:39:47.124292 after 0.68 seconds
+[0m16:39:47.124292 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000219C5980140>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000219802DBD10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000219C559F950>]}
+[0m16:39:47.124292 [debug] [MainThread]: Flushing usage events
+[0m16:39:48.364481 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m16:41:20.578897 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000223B0F24DA0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000223B0AA0C80>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000223B1026C60>]}
+
+
+============================== 16:41:20.583899 | 101a0b05-575f-4eff-a861-01ec620ffac3 ==============================
+[0m16:41:20.583899 [info ] [MainThread]: Running with dbt=1.11.7
+[0m16:41:20.583899 [debug] [MainThread]: running dbt with arguments {'version_check': 'True', 'no_print': 'None', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'target_path': 'None', 'printer_width': '80', 'write_json': 'True', 'introspect': 'True', 'log_cache_events': 'False', 'empty': 'None', 'cache_selected_only': 'False', 'fail_fast': 'False', 'debug': 'False', 'log_format': 'default', 'partial_parse': 'True', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'profiles_dir': 'C:\\Users\\RatthasitBuathongcha\\.dbt', 'use_colors': 'True', 'indirect_selection': 'eager', 'invocation_command': 'dbt ', 'use_experimental_parser': 'False', 'log_path': 'd:\\LMWN_Test\\LMWN-AE-Exam\\ae-exam-main\\logs'}
+[0m16:41:20.682723 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '101a0b05-575f-4eff-a861-01ec620ffac3', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000223B0F24DA0>]}
+[0m16:41:20.699741 [info ] [MainThread]: Warning: No packages were found in packages.yml
+[0m16:41:20.701730 [info ] [MainThread]: Warning: No packages were found in packages.yml
+[0m16:41:20.701730 [debug] [MainThread]: Command `cli deps` succeeded at 16:41:20.701730 after 0.25 seconds
+[0m16:41:20.702733 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000223B085F230>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000223B085C1D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000223AD95DC40>]}
+[0m16:41:20.702733 [debug] [MainThread]: Flushing usage events
+[0m16:41:21.862544 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m17:48:49.471107 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002455A185AC0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002455A15EAB0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002455828BF80>]}
+
+
+============================== 17:48:49.474467 | 87b92e46-4da6-4067-8478-2cce441e5d31 ==============================
+[0m17:48:49.474467 [info ] [MainThread]: Running with dbt=1.11.7
+[0m17:48:49.475449 [debug] [MainThread]: running dbt with arguments {'version_check': 'True', 'no_print': 'None', 'static_parser': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'printer_width': '80', 'write_json': 'True', 'empty': 'None', 'log_cache_events': 'False', 'introspect': 'True', 'cache_selected_only': 'False', 'log_format': 'default', 'debug': 'False', 'fail_fast': 'False', 'partial_parse': 'True', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'profiles_dir': 'C:\\Users\\RatthasitBuathongcha\\.dbt', 'indirect_selection': 'eager', 'invocation_command': 'dbt debug', 'use_colors': 'True', 'use_experimental_parser': 'False', 'log_path': 'logs'}
+[0m17:48:49.484993 [info ] [MainThread]: dbt version: 1.11.7
+[0m17:48:49.485628 [info ] [MainThread]: python version: 3.12.10
+[0m17:48:49.486639 [info ] [MainThread]: python path: D:\LMWN_Test\LMWN-AE-Exam\ae-exam-main\.venv\Scripts\python.exe
+[0m17:48:49.486639 [info ] [MainThread]: os info: Windows-11-10.0.26200-SP0
+[0m17:48:49.486639 [info ] [MainThread]: Using profiles dir at C:\Users\RatthasitBuathongcha\.dbt
+[0m17:48:49.486639 [info ] [MainThread]: Using profiles.yml file at C:\Users\RatthasitBuathongcha\.dbt\profiles.yml
+[0m17:48:49.486639 [info ] [MainThread]: Using dbt_project.yml file at D:\LMWN_Test\LMWN-AE-Exam\ae-exam-main\dbt_project.yml
+[0m17:48:49.488147 [info ] [MainThread]: Configuration:
+[0m17:48:49.488147 [info ] [MainThread]:   profiles.yml file [[31mERROR not found[0m]
+[0m17:48:49.488147 [info ] [MainThread]:   dbt_project.yml file [[31mERROR not found[0m]
+[0m17:48:49.489155 [info ] [MainThread]: Required dependencies:
+[0m17:48:49.489155 [debug] [MainThread]: Executing "git --help"
+[0m17:48:49.521652 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--no-lazy-fetch]\n           [--no-optional-locks] [--no-advice] [--bare] [--git-dir=<path>]\n           [--work-tree=<path>] [--namespace=<name>] [--config-env=<name>=<envvar>]\n           <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone      Clone a repository into a new directory\n   init       Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add        Add file contents to the index\n   mv         Move or rename a file, a directory, or a symlink\n   restore    Restore working tree files\n   rm         Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect     Use binary search to find the commit that introduced a bug\n   diff       Show changes between commits, commit and working tree, etc\n   grep       Print lines matching a pattern\n   log        Show commit logs\n   show       Show various types of objects\n   status     Show the working tree status\n\ngrow, mark and tweak your common history\n   backfill   Download missing objects in a partial clone\n   branch     List, create, or delete branches\n   commit     Record changes to the repository\n   merge      Join two or more development histories together\n   rebase     Reapply commits on top of another base tip\n   reset      Reset current HEAD to the specified state\n   switch     Switch branches\n   tag        Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch      Download objects and refs from another repository\n   pull       Fetch from and integrate with another repository or a local branch\n   push       Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m17:48:49.522638 [debug] [MainThread]: STDERR: "b''"
+[0m17:48:49.522638 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m17:48:49.523638 [info ] [MainThread]: Connection test skipped since no profile was found
+[0m17:48:49.524638 [info ] [MainThread]: [31m2 checks failed:[0m
+[0m17:48:49.524638 [info ] [MainThread]: dbt looked for a profiles.yml file in C:\Users\RatthasitBuathongcha\.dbt\profiles.yml, but did
+not find one. For more information on configuring your profile, consult the
+documentation:
+
+https://docs.getdbt.com/docs/configure-your-profile
+
+
+[0m17:48:49.525638 [info ] [MainThread]: Project loading failed for the following reason:
+ project path <D:\LMWN_Test\LMWN-AE-Exam\ae-exam-main\dbt_project.yml> not found
+
+[0m17:48:49.525638 [debug] [MainThread]: Command `dbt debug` failed at 17:48:49.525638 after 0.29 seconds
+[0m17:48:49.525638 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000024559D00290>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000024559D03560>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000024559D02150>]}
+[0m17:48:49.526655 [debug] [MainThread]: Flushing usage events
+[0m17:48:50.690550 [debug] [MainThread]: An error was encountered while trying to flush usage events

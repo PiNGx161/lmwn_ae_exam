@@ -1,0 +1,18 @@
+models:
+  - name: report_campaign_effectiveness
+
+  - name: report_customer_acquisition
+
+  - name: report_retargeting_performance
+
+  - name: report_driver_performance
+
+  - name: report_delivery_zone_heatmap
+
+  - name: report_driver_incentive_impact
+
+  - name: report_complaint_summary
+
+  - name: report_driver_complaints
+
+  - name: report_restaurant_quality

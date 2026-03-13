@@ -1,0 +1,68 @@
+models:
+  - name: model_stg_customers
+    description: "Cleaned customers master data"
+    columns:
+      - name: customer_id
+        tests: [unique, not_null]
+
+  - name: model_stg_drivers
+    description: "Cleaned drivers master data"
+    columns:
+      - name: driver_id
+        tests: [unique, not_null]
+
+  - name: model_stg_restaurants
+    description: "Cleaned restaurants master data"
+    columns:
+      - name: restaurant_id
+        tests: [unique, not_null]
+
+  - name: model_stg_orders
+    description: "Orders with derived time calculations"
+    columns:
+      - name: order_id
+        tests: [unique, not_null]
+      - name: customer_id
+        tests: [not_null]
+
+  - name: model_stg_order_status_logs
+    description: "Order status change logs"
+    columns:
+      - name: log_id
+        tests: [unique, not_null]
+
+  - name: model_stg_campaigns
+    description: "Campaign master data"
+    columns:
+      - name: campaign_id
+        tests: [unique, not_null]
+
+  - name: model_stg_campaign_interactions
+    description: "Campaign interaction events"
+    columns:
+      - name: interaction_id
+        tests: [unique, not_null]
+
+  - name: model_stg_support_tickets
+    description: "Support tickets with resolution time"
+    columns:
+      - name: ticket_id
+        tests: [unique, not_null]
+
+  - name: model_stg_support_ticket_logs
+    description: "Support ticket status change logs"
+    columns:
+      - name: log_id
+        tests: [unique, not_null]
+
+  - name: model_stg_driver_incentives
+    description: "Driver incentive program logs"
+    columns:
+      - name: log_id
+        tests: [unique, not_null]
+
+  - name: model_stg_app_sessions
+    description: "Customer app sessions with duration"
+    columns:
+      - name: session_id
+        tests: [unique, not_null]

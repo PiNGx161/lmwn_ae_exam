@@ -1,0 +1,29 @@
+sources:
+  - name: raw
+    schema: main
+    tables:
+      - name: customers_master
+        description: "Basic information about all customers"
+      - name: drivers_master
+        description: "All delivery drivers with background and service zones"
+      - name: restaurants_master
+        description: "Restaurants participating in the platform"
+      - name: campaign_master
+        description: "Marketing campaigns launched throughout the year"
+      - name: order_transactions
+        description: "All food delivery orders placed throughout the year"
+      - name: support_tickets
+        description: "Customer support requests or complaints"
+      - name: support_ticket_status_logs
+        description: "Status changes of each support ticket over time"
+      - name: campaign_interactions
+        description: "Customer interactions with marketing campaigns"
+      - name: order_log_incentive_sessions_order_status_logs
+        identifier: "order_log_incentive_sessions_order_status_logs"
+        description: "Step-by-step status updates for each order"
+      - name: order_log_incentive_sessions_driver_incentive_logs
+        identifier: "order_log_incentive_sessions_driver_incentive_logs"
+        description: "Driver bonuses or incentives"
+      - name: order_log_incentive_sessions_customer_app_sessions
+        identifier: "order_log_incentive_sessions_customer_app_sessions"
+        description: "Customer mobile app activity"

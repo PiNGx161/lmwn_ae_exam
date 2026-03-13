@@ -1,0 +1,16 @@
+name: 'lmwn_ae_exam'
+version: '1.0.0'
+
+
+profile: 'lmwn_ae_exam'
+
+model-paths: ["models"]
+analysis-paths: ["analyses"]
+test-paths: ["tests"]
+seed-paths: ["seeds"]
+macro-paths: ["macros"]
+snapshot-paths: ["snapshots"]
+
+clean-targets:
+  - "target"
+  - "dbt_packages"

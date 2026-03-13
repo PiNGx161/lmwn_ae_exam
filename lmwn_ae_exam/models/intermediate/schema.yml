@@ -1,0 +1,15 @@
+models:
+  - name: model_int_order_enriched
+    description: "Orders enriched with customer, driver, and restaurant details"
+
+  - name: model_int_campaign_performance
+    description: "Campaign-level aggregated performance metrics"
+
+  - name: model_int_customer_orders
+    description: "Customer-level order summary and behavior metrics"
+
+  - name: model_int_driver_performance
+    description: "Driver-level performance metrics including acceptance and delivery times"
+
+  - name: model_int_ticket_enriched
+    description: "Support tickets enriched with related entity details"

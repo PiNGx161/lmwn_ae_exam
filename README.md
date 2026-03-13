@@ -13,6 +13,12 @@ cd lmwn_ae_exam
 
 # 3. run DBT debug for check
 dbt debug
+
+# 4. change directory
+cd lmwn_ae_exam
+
+# 5. run DBT debug for check
+dbt debug
 ```
 ### If you did't use uv please instll via pip
 ```bash
@@ -32,7 +38,7 @@ cd lmwn_ae_exam
 # 5. run DBT debug for check
 dbt debug
 
-# 5. run DBT debug for check
+# 6. run DBT debug for check
 dbt build
 ```
 
